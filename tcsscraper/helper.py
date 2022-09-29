@@ -73,7 +73,7 @@ def scrape_table_rows(table_rows):
         row = [c.text for c in cells]
         rows.append(row)
     
-    return {'elements': table_rows, 'rows': rows}
+    return {"elements": table_rows, "rows": rows}
 
 
 
@@ -122,12 +122,14 @@ class Car:
 
 
 def scrape_one_car(driver, car, km, canton):
-    
-    import pdb
-    pdb.set_trace()
+
+    wait_variable = WebDriverWait(driver, timeout=10)
 
     ## popup
-    WebDriverWait(car, 10).until(lambda c: c.find_element(By.CSS_SELECTOR, "td")).click()
+    popup = wait_variable.until(lambda x: car.find_element(By.CSS_SELECTOR, "td"))
+    driver.execute_script("arguments[0].click();", popup)
+
+    time.sleep(0.5)
 
     xpath = "//div[@id='lightbox-content']"
 
@@ -137,10 +139,10 @@ def scrape_one_car(driver, car, km, canton):
     canton_dropdown.select_by_visible_text(canton)
 
     ## spezifikationen
-    specifications = driver.find_element(By.XPATH, xpath)
+    specifications = wait_variable.until(lambda d: d.find_element(By.XPATH, xpath))
     table_rows = specifications.find_elements(By.CSS_SELECTOR, "tr")
     content = scrape_table_rows(table_rows)
-    rows = content['rows']
+    rows = content["rows"]
 
     ## some cleaning
     car_specs = {r[0]: r[1] for r in rows if r[0].strip()}
@@ -165,9 +167,10 @@ def scrape_one_car(driver, car, km, canton):
     car_costs = dict(zip(it, it))
 
     ## close popup
-    driver.find_element(By.XPATH, "//div[@id='lightbox']/div/div").click()
+    close_popup = wait_variable.until(lambda d: d.find_element(By.XPATH, "//div[@id='lightbox']/div/div"))
+    close_popup.click()
 
-    return {'specs': car_specs, 'costs': car_costs}
+    return {"specs": car_specs, "costs": car_costs}
 
 
 
@@ -176,6 +179,7 @@ def scrape_one_car(driver, car, km, canton):
 
 
 def scrape_cars(driver, cars, km, canton):
+
     content = []
     for c in cars:
         car = scrape_one_car(driver, c, km, canton)

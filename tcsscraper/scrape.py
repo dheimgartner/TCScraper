@@ -45,7 +45,7 @@ def get_base_table(headless=True):
         table_rows = table.find_elements(By.XPATH, "//div[@id='cars']//tr")
         table_rows = table_rows[1:]
         content = helper.scrape_table_rows(table_rows)
-        rows = content['rows']  
+        rows = content["rows"]  
             
         data = pd.DataFrame(rows)
         data.columns = colnames
