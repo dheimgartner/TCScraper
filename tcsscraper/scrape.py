@@ -69,7 +69,7 @@ def get_base_table(headless=True):
 
 
 ## multiple vehicle_class and fuel_types should be accepted...
-def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bound = 0.5, headless=True):
+def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bound=0.5, headless=True):
 
     car = Car(vehicle_class, fuel_type, fuel_consumption)
 

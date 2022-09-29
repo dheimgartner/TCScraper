@@ -22,7 +22,7 @@ class EndOfTable:
     
     def tick(self, verbose=True):
         if verbose:
-            print("tick")
+            print("Scrolling table...")
         
         xpath = "//div[@id='cars']//tr[last()]"
         compare = self.driver.find_element(By.XPATH, xpath).text
@@ -121,7 +121,13 @@ class Car:
 
 
 
-def scrape_one_car(driver, car, km, canton):
+
+def move_slider_to(to, driver, slider, width):
+    pass
+
+
+
+def scrape_one_car(driver, car, km, canton, verbose=True):
 
     wait_variable = WebDriverWait(driver, timeout=10)
 
@@ -133,7 +139,7 @@ def scrape_one_car(driver, car, km, canton):
 
     xpath = "//div[@id='lightbox-content']"
 
-    box = driver.find_element(By.XPATH, xpath)
+    box = wait_variable.until(lambda d: d.find_element(By.XPATH, xpath))
 
     canton_dropdown = Select(box.find_element(By.CSS_SELECTOR, "select"))
     canton_dropdown.select_by_visible_text(canton)
@@ -153,12 +159,14 @@ def scrape_one_car(driver, car, km, canton):
     ## betriebskosten
     specifications.find_element(By.XPATH, "//ul[@id='lnav']//li[@tab='1']").click()
 
-    ## slider
-    slider = driver.find_element(By.XPATH, "//div[@id='popup_slider1']/span")
-    move = ActionChains(driver)
-    range = SLIDER_MAX - SLIDER_MIN
-    offset = 100 / range * (km - SLIDER_START)
-    move.click_and_hold(slider).move_by_offset(offset, 0).release().perform()
+
+    srange = driver.find_element(By.XPATH, "//div[@id='popup_slider1']/div")
+    shandle = driver.find_element(By.XPATH, "//div[@id='popup_slider1']/span")
+
+
+    ## move_slider_by
+
+    
 
     costs = driver.find_element(By.XPATH, "//div[@id='tco-box']")
     car_costs = costs.text.split("\n")
@@ -169,6 +177,9 @@ def scrape_one_car(driver, car, km, canton):
     ## close popup
     close_popup = wait_variable.until(lambda d: d.find_element(By.XPATH, "//div[@id='lightbox']/div/div"))
     close_popup.click()
+
+    if verbose:
+        print("Extracted {} {} {}".format(car_specs["Marke"], car_specs["Modell"], car_specs["Ausführung"]))
 
     return {"specs": car_specs, "costs": car_costs}
 
