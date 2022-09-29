@@ -10,6 +10,9 @@ import pandas as pd
 import time
 
 import helper
+from helper import Car
+
+from itertools import compress
 
 
 def get_base_table(headless=True):
@@ -70,38 +73,9 @@ def get_base_table(headless=True):
 
 
 ## multiple vehicle_class and fuel_types should be accepted...
-def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, headless=True):
+def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, bound = 0.5, headless=True):
 
-    classes = [
-        "Mikroklasse", 
-        "Kleinwagen",
-        "Untere Mittelklasse",
-        "Mittelklasse",
-        "Obere Mittelklasse",
-        "Luxusklasse",
-        "Coupé / Sportwagen",
-        "Cabriolet / Roadster",
-        "SUV S",
-        "SUV M",
-        "SUV L",
-        "SUV XL",
-        "Minivan S",
-        "Minivan M",
-        "Minivan L"
-        ]
-
-    fuels = [
-        "Benzin",
-        "Diesel",
-        "Hybrid Benzin",
-        "Hybrid Diesel",
-        "Erdgas (CNG)",
-        "Elektro",
-        "Elektro mit Range Extender",
-        "Plug-in Hybrid Benzin",
-        "Plug-in Hybrid Diesel",
-        "Wasserstoff / Elektro"
-    ]
+    car = Car(vehicle_class, fuel_type, fuel_consumption)
 
     driver = helper.set_up_driver(headless)
     
@@ -112,26 +86,26 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, headless=True):
         dropdown = Select(driver.find_element(By.NAME, "view"))
         dropdown.select_by_visible_text("Listenansicht")
 
-        ## filter by vehicle_class and fuel_type
+        ## filter by vehicle_class
+        vc_dropdown = Select(driver.find_element(By.NAME, "FzKlasse"))
+        vc_dropdown.select_by_visible_text(car.vehicle_class)
 
-        
-        
-        
-        
+        ## filter by fuel_type
+        ft_dropdown = Select(driver.find_element(By.NAME, "Treibstoffart"))
+        ft_dropdown.select_by_visible_text(car.fuel_type)
+
+
         helper.load_dynamic_table(driver)
-
-
-
-
-        ## consider only cars with similar consumption
-
-
-
-
-
 
         table = wait_variable.until(lambda d: d.find_element(By.XPATH, "//div[@id='cars']/div[@id='list']"))
 
+        
+
+        import pdb
+        pdb.set_trace()
+
+
+        
         ## get data
         table_rows = table.find_elements(By.XPATH, "//div[@id='cars']//tr")
         table_rows = table_rows[1:]  ## drop header row
@@ -143,7 +117,22 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, headless=True):
             
             
         data = pd.DataFrame(rows)
-        data.columns = colnames
+        consumption = data[7]
+        idx = []
+        for index, value in consumption.items():
+            nu = value.split(" ")
+            number, unit = float(nu[0]), nu[1]
+            if number > car.fuel_consumption - bound and number < car.fuel_consumption + bound:
+                idx.append(True)
+            else:
+                idx.append(False)
+
+        relevant_cars = list(compress(table_rows, idx))
+
+
+        
+        
+        ## scrape car
 
 
     
@@ -161,5 +150,7 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, headless=True):
 
 
 if __name__ == "__main__":
-    data = get_base_table(headless=True)
-    print(data)
+    # data = get_base_table()
+    # print(data)
+
+    get_similar_cars("Mikroklasse", "Benzin", 5, headless=False)

@@ -6,36 +6,6 @@ import pandas as pd
 
 
 
-def batch_scrape(driver, colnames, xpath = "//div[@id='cars']//tr"):
-
-    raise(DeprecationWarning)
-    
-    last = driver.find_element(By.XPATH, xpath + "[last()]")
-    compare = last.text
-    driver.execute_script("arguments[0].scrollIntoView();", last)
-
-    time.sleep(2)
-
-    new_last = driver.find_element(By.XPATH, xpath)
-    if new_last.text == compare:
-        return None
-
-    table_rows = driver.find_elements(By.XPATH, xpath)
-    rows = []
-    for r in table_rows:
-        cells = r.find_elements(By.CSS_SELECTOR, "td")
-        row = [c.text for c in cells]
-        rows.append(row)
-            
-            
-    table_data = pd.DataFrame(rows)
-    table_data.columns = colnames
-
-    return table_data
-
-
-
-
 class EndOfTable:
     __benchmark = None
 
@@ -88,7 +58,7 @@ def set_up_driver(headless=True):
 
 
 class Car:
-    vehicle_class = [
+    vehicle_classes = [
         "Mikroklasse", 
         "Kleinwagen",
         "Untere Mittelklasse",
@@ -106,7 +76,7 @@ class Car:
         "Minivan L"
         ]
 
-    fuel_type = [
+    fuel_types = [
         "Benzin",
         "Diesel",
         "Hybrid Benzin",
@@ -118,3 +88,16 @@ class Car:
         "Plug-in Hybrid Diesel",
         "Wasserstoff / Elektro"
         ]
+
+    def __init__(self, vehicle_class, fuel_type, fuel_consumption):
+        if vehicle_class not in self.vehicle_classes:
+            raise Exception("vehicle_class must be one of Car.vehicle_classes")
+
+        if fuel_type not in self.fuel_types:
+            raise Exception("fuel_type must be one of Car.fuel_types")
+        
+        self.vehicle_class, self.fuel_type, self.fuel_consumption = vehicle_class, fuel_type, fuel_consumption
+
+
+
+def scrape_car(driver, cars):
