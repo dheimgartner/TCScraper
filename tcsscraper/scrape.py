@@ -43,13 +43,9 @@ def get_base_table(headless=True):
 
         ## get data
         table_rows = table.find_elements(By.XPATH, "//div[@id='cars']//tr")
-        table_rows = table_rows[1:]  ## drop header row
-        rows = []
-        for r in table_rows:
-            cells = r.find_elements(By.CSS_SELECTOR, "td")
-            row = [c.text for c in cells]
-            rows.append(row)
-            
+        table_rows = table_rows[1:]
+        content = helper.scrape_table_rows(table_rows)
+        rows = content['rows']  
             
         data = pd.DataFrame(rows)
         data.columns = colnames
@@ -73,7 +69,7 @@ def get_base_table(headless=True):
 
 
 ## multiple vehicle_class and fuel_types should be accepted...
-def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, bound = 0.5, headless=True):
+def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bound = 0.5, headless=True):
 
     car = Car(vehicle_class, fuel_type, fuel_consumption)
 
@@ -98,23 +94,12 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, bound = 0.5, he
         helper.load_dynamic_table(driver)
 
         table = wait_variable.until(lambda d: d.find_element(By.XPATH, "//div[@id='cars']/div[@id='list']"))
-
         
-
-        import pdb
-        pdb.set_trace()
-
-
-        
-        ## get data
         table_rows = table.find_elements(By.XPATH, "//div[@id='cars']//tr")
-        table_rows = table_rows[1:]  ## drop header row
-        rows = []
-        for r in table_rows:
-            cells = r.find_elements(By.CSS_SELECTOR, "td")
-            row = [c.text for c in cells]
-            rows.append(row)
-            
+        table_rows = table_rows[1:]
+        content = helper.scrape_table_rows(table_rows)
+        table_rows = content['elements']
+        rows = content['rows']  
             
         data = pd.DataFrame(rows)
         consumption = data[7]
@@ -130,9 +115,12 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, bound = 0.5, he
         relevant_cars = list(compress(table_rows, idx))
 
 
-        
-        
-        ## scrape car
+
+        ## test
+        helper.scrape_one_car(driver, relevant_cars[0], 15000, "AI")
+
+
+        helper.scrape_cars(driver, relevant_cars, km, canton)
 
 
     
@@ -153,4 +141,4 @@ if __name__ == "__main__":
     # data = get_base_table()
     # print(data)
 
-    get_similar_cars("Mikroklasse", "Benzin", 5, headless=False)
+    get_similar_cars("Mikroklasse", "Benzin", 5, 15000, "AI", headless=False)

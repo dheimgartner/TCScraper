@@ -1,8 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.ui import Select, WebDriverWait
 import time
 import pandas as pd
+import json
 
 
 
@@ -57,6 +59,18 @@ def set_up_driver(headless=True):
 
 
 
+def scrape_table_rows(table_rows):
+    rows = []
+    for r in table_rows:
+        cells = r.find_elements(By.CSS_SELECTOR, "td")
+        row = [c.text for c in cells]
+        rows.append(row)
+    
+    return {'elements': table_rows, 'rows': rows}
+
+
+
+
 class Car:
     vehicle_classes = [
         "Mikroklasse", 
@@ -100,4 +114,43 @@ class Car:
 
 
 
-def scrape_car(driver, cars):
+def scrape_one_car(driver, car, km, canton):
+
+    popup = car.find_element(By.CSS_SELECTOR, "td")
+    popup.click()
+
+    xpath = "//div[@id='lightbox-content']"
+
+    box = driver.find_element(By.XPATH, xpath)
+
+    canton_dropdown = Select(box.find_element(By.CSS_SELECTOR, "select"))
+    canton_dropdown.select_by_visible_text(canton)
+
+    ## spezifikationen
+    specifications = driver.find_element(By.XPATH, xpath)
+    table_rows = specifications.find_elements(By.CSS_SELECTOR, "tr")
+    content = scrape_table_rows(table_rows)
+    rows = content['rows']
+
+    ## some cleaning
+    car_specs = {r[0]: r[1] for r in rows if r[0].strip()}
+    car_specs.pop("Kanton")
+    car_specs = {key.replace("\n", ""): value for (key, value) in car_specs.items()}
+
+    import pdb
+    pdb.set_trace()
+
+    ## betriebskosten
+    specifications.find_element(By.XPATH, "//ul[@id='lnav']//li[@tab='1']").click()
+    slider = driver.find_element(By.CLASS_NAME, "ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min")
+
+
+
+    
+
+
+
+def scrape_cars(driver, cars, km, canton):
+    content = {}
+    for car in cars:
+        scrape_one_car(car)
