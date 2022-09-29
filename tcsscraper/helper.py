@@ -1,3 +1,4 @@
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 import time
@@ -35,7 +36,7 @@ def batch_scrape(driver, colnames, xpath = "//div[@id='cars']//tr"):
 
 
 
-class End:
+class EndOfTable:
     __benchmark = None
 
     def __init__(self, driver):
@@ -56,9 +57,64 @@ class End:
 
 
 def load_dynamic_table(driver, sleep=0.5):
-    end = End(driver)
+    end = EndOfTable(driver)
     while True:
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(sleep)
         if end.tick() == 1:
             break
+
+
+
+def set_up_driver(headless=True):
+    options = webdriver.FirefoxOptions()
+    if headless:
+        options.add_argument("-headless")
+
+    driver = webdriver.Firefox(options=options)
+    
+    try:
+        driver.maximize_window()
+        base_url = "https://www.verbrauchskatalog.ch/index.php"
+        driver.get(base_url)
+
+    except Exception as e:
+        print(e)
+        return None
+
+    return driver
+
+
+
+
+class Car:
+    vehicle_class = [
+        "Mikroklasse", 
+        "Kleinwagen",
+        "Untere Mittelklasse",
+        "Mittelklasse",
+        "Obere Mittelklasse",
+        "Luxusklasse",
+        "Coupé / Sportwagen",
+        "Cabriolet / Roadster",
+        "SUV S",
+        "SUV M",
+        "SUV L",
+        "SUV XL",
+        "Minivan S",
+        "Minivan M",
+        "Minivan L"
+        ]
+
+    fuel_type = [
+        "Benzin",
+        "Diesel",
+        "Hybrid Benzin",
+        "Hybrid Diesel",
+        "Erdgas (CNG)",
+        "Elektro",
+        "Elektro mit Range Extender",
+        "Plug-in Hybrid Benzin",
+        "Plug-in Hybrid Diesel",
+        "Wasserstoff / Elektro"
+        ]
