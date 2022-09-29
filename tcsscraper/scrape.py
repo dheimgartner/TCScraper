@@ -23,7 +23,7 @@ def get_base_table(headless=True):
         wait_variable = WebDriverWait(driver, timeout=60)
         
         ## change to listenansicht
-        dropdown = Select(driver.find_element(By.NAME, "view"))
+        dropdown = Select(driver.find_element(By.XPATH, "//div[@id='filters']//select[@name='view']"))
         dropdown.select_by_visible_text("Listenansicht")
         
         ## legend
@@ -79,7 +79,7 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bou
         wait_variable = WebDriverWait(driver, timeout=60)
         
         ## change to listenansicht
-        dropdown = Select(driver.find_element(By.NAME, "view"))
+        dropdown = Select(driver.find_element(By.XPATH, "//div[@id='filters']//select[@name='view']"))
         dropdown.select_by_visible_text("Listenansicht")
 
         ## filter by vehicle_class
@@ -114,13 +114,7 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bou
 
         relevant_cars = list(compress(table_rows, idx))
 
-
-
-        ## test
-        helper.scrape_one_car(driver, relevant_cars[0], 15000, "AI")
-
-
-        helper.scrape_cars(driver, relevant_cars, km, canton)
+        content = helper.scrape_cars(driver, relevant_cars, km, canton)
 
 
     
@@ -130,7 +124,7 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bou
         return None
 
     driver.quit()
-    return data
+    return content
 
 
 
@@ -141,4 +135,9 @@ if __name__ == "__main__":
     # data = get_base_table()
     # print(data)
 
-    get_similar_cars("Mikroklasse", "Benzin", 5, 15000, "AI", headless=False)
+    cars = get_similar_cars("Mikroklasse", "Benzin", 5, 20e3, "AI", headless=False)
+    
+    import pdb
+    pdb.set_trace()
+    
+    print(cars)

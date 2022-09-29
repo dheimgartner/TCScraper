@@ -1,11 +1,17 @@
+from argparse import Action
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
 import time
 import pandas as pd
 import json
 
+
+SLIDER_MIN = 5e3
+SLIDER_MAX = 50e3
+SLIDER_START = 15e3
 
 
 class EndOfTable:
@@ -38,7 +44,7 @@ def load_dynamic_table(driver, sleep=0.5):
 
 
 
-def set_up_driver(headless=True):
+def set_up_driver(headless=True, maximize=False):
     options = webdriver.FirefoxOptions()
     if headless:
         options.add_argument("-headless")
@@ -46,7 +52,8 @@ def set_up_driver(headless=True):
     driver = webdriver.Firefox(options=options)
     
     try:
-        driver.maximize_window()
+        if maximize:
+            driver.maximize_window()
         base_url = "https://www.verbrauchskatalog.ch/index.php"
         driver.get(base_url)
 
@@ -115,9 +122,12 @@ class Car:
 
 
 def scrape_one_car(driver, car, km, canton):
+    
+    import pdb
+    pdb.set_trace()
 
-    popup = car.find_element(By.CSS_SELECTOR, "td")
-    popup.click()
+    ## popup
+    WebDriverWait(car, 10).until(lambda c: c.find_element(By.CSS_SELECTOR, "td")).click()
 
     xpath = "//div[@id='lightbox-content']"
 
@@ -137,12 +147,27 @@ def scrape_one_car(driver, car, km, canton):
     car_specs.pop("Kanton")
     car_specs = {key.replace("\n", ""): value for (key, value) in car_specs.items()}
 
-    import pdb
-    pdb.set_trace()
-
+    
     ## betriebskosten
     specifications.find_element(By.XPATH, "//ul[@id='lnav']//li[@tab='1']").click()
-    slider = driver.find_element(By.CLASS_NAME, "ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min")
+
+    ## slider
+    slider = driver.find_element(By.XPATH, "//div[@id='popup_slider1']/span")
+    move = ActionChains(driver)
+    range = SLIDER_MAX - SLIDER_MIN
+    offset = 100 / range * (km - SLIDER_START)
+    move.click_and_hold(slider).move_by_offset(offset, 0).release().perform()
+
+    costs = driver.find_element(By.XPATH, "//div[@id='tco-box']")
+    car_costs = costs.text.split("\n")
+    car_costs = [cc.strip().replace(":", "") for cc in car_costs]
+    it = iter(car_costs)
+    car_costs = dict(zip(it, it))
+
+    ## close popup
+    driver.find_element(By.XPATH, "//div[@id='lightbox']/div/div").click()
+
+    return {'specs': car_specs, 'costs': car_costs}
 
 
 
@@ -151,6 +176,8 @@ def scrape_one_car(driver, car, km, canton):
 
 
 def scrape_cars(driver, cars, km, canton):
-    content = {}
-    for car in cars:
-        scrape_one_car(car)
+    content = []
+    for c in cars:
+        car = scrape_one_car(driver, c, km, canton)
+        content.append(car)
+    return content
