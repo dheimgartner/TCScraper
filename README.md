@@ -1,4 +1,4 @@
-# TCScraper
+# tcsscraper
 
 - Tools to scrape the TCS database (which is based on the BFE)
 - https://www.verbrauchskatalog.ch/index.php
