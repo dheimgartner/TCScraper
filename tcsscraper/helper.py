@@ -9,9 +9,11 @@ import pandas as pd
 import json
 
 
+
 SLIDER_MIN = 5e3
 SLIDER_MAX = 50e3
 SLIDER_START = 15e3
+
 
 
 class EndOfTable:
@@ -65,7 +67,6 @@ def set_up_driver(headless=True, maximize=False):
 
 
 
-
 def scrape_table_rows(table_rows):
     rows = []
     for r in table_rows:
@@ -74,7 +75,6 @@ def scrape_table_rows(table_rows):
         rows.append(row)
     
     return {"elements": table_rows, "rows": rows}
-
 
 
 
@@ -121,9 +121,45 @@ class Car:
 
 
 
+class Slider:
+    """Acts on handle
+    """
 
-def move_slider_to(to, driver, slider, width):
-    pass
+    def __init__(self, driver, slider_handle, step_size=[5, 1e3], min=SLIDER_MIN, max=SLIDER_MAX, start=SLIDER_START):
+        """Manipulate slider object
+
+        Args:
+            driver: Selenium driver
+            slider_handle: Slider handle object
+            step_size (list, optional): 5 pix == 1000km. Defaults to [5, 1e3].
+            min (int, optional): Slider lower bound. Defaults to SLIDER_MIN.
+            max (int, optional): Slider upper bound. Defaults to SLIDER_MAX.
+            start(int, optional): Slider initial position. Defaults to SLIDER_START.
+        """
+        self.driver, self.slider_handle, self.step_size, self.min, self.max, self.start = driver, slider_handle, step_size, min, max, start
+    
+    def compute_offset(self, target, start):
+        diff = target - start
+        step = int(diff / self.step_size[1])
+        offset = step * self.step_size[0]
+        return offset
+    
+    def drag_and_drop_by_offset(self, x):
+        ## by pixels...
+        ActionChains(self.driver).drag_and_drop_by_offset(self.slider_handle, x, 0).perform()
+
+    def move_to_target_from_position(self, target, position):
+        offset = self.compute_offset(target, position)
+        self.drag_and_drop_by_offset(x=offset)
+
+    def reset_slider(self, position=None):
+        if position is None:
+            position = self.start
+        self.move_to_target_from_position(target=self.min, position=position)
+
+    def reset_and_move(self, target):
+        self.reset_slider()
+        self.move_to_target_from_position(target=target, position=self.start)
 
 
 
@@ -153,7 +189,7 @@ def scrape_one_car(driver, car, km, canton, verbose=True):
     ## some cleaning
     car_specs = {r[0]: r[1] for r in rows if r[0].strip()}
     car_specs.pop("Kanton")
-    car_specs = {key.replace("\n", ""): value for (key, value) in car_specs.items()}
+    car_specs = {key.replace("\n", "").replace("\*", ""): value for (key, value) in car_specs.items()}
 
     
     ## betriebskosten
@@ -163,10 +199,8 @@ def scrape_one_car(driver, car, km, canton, verbose=True):
     srange = driver.find_element(By.XPATH, "//div[@id='popup_slider1']/div")
     shandle = driver.find_element(By.XPATH, "//div[@id='popup_slider1']/span")
 
-
-    ## move_slider_by
-
-    
+    slider = Slider(driver, shandle)
+    slider.reset_and_move(target=km)
 
     costs = driver.find_element(By.XPATH, "//div[@id='tco-box']")
     car_costs = costs.text.split("\n")
@@ -181,11 +215,7 @@ def scrape_one_car(driver, car, km, canton, verbose=True):
     if verbose:
         print("Extracted {} {} {}".format(car_specs["Marke"], car_specs["Modell"], car_specs["Ausführung"]))
 
-    return {"specs": car_specs, "costs": car_costs}
-
-
-
-    
+    return {"specs": car_specs, "costs": car_costs, "km": km, "canton": canton}
 
 
 

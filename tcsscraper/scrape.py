@@ -16,7 +16,7 @@ from helper import Car
 from itertools import compress
 
 
-#%%
+
 def get_base_table(headless=True):
 
     driver = helper.set_up_driver(headless)
@@ -64,12 +64,6 @@ def get_base_table(headless=True):
 
 
 
-
-
-
-
-
-#%%
 ## multiple vehicle_class and fuel_types should be accepted...
 def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bound=0.5, headless=True):
 
@@ -101,7 +95,7 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bou
         table_rows = table_rows[1:]
         content = helper.scrape_table_rows(table_rows)
         table_rows = content['elements']
-        rows = content['rows']  
+        rows = content['rows']
             
         data = pd.DataFrame(rows)
         consumption = data[7]
@@ -127,9 +121,7 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bou
 
     driver.quit()
     return content
-
-
-
+    
 
 
 #%%
@@ -137,9 +129,7 @@ if __name__ == "__main__":
     # data = get_base_table()
     # print(data)
 
-    cars = get_similar_cars("Mikroklasse", "Benzin", 5, 20e3, "AI", headless=False)
-    
-    import pdb
-    pdb.set_trace()
+    cars = get_similar_cars("Mikroklasse", "Benzin", 5, 20e3, "AI", headless=True)
     
     print(cars)
+# %%
