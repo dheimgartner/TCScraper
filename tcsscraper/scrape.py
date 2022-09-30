@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 import helper
-from helper import Car
+from helper import Car, Slider
 
 
 
@@ -82,13 +82,13 @@ def scrape_one_car(driver, car, km, canton, verbose=True):
     ## spezifikationen
     specifications = wait_variable.until(lambda d: d.find_element(By.XPATH, xpath))
     table_rows = specifications.find_elements(By.CSS_SELECTOR, "tr")
-    content = scrape_table_rows(table_rows)
+    content = helper.scrape_table_rows(table_rows)
     rows = content["rows"]
 
     ## some cleaning
     car_specs = {r[0]: r[1] for r in rows if r[0].strip()}
     car_specs.pop("Kanton")
-    car_specs = {key.replace("\n", "").replace("\*", ""): value for (key, value) in car_specs.items()}
+    car_specs = {key.replace("\n", "").replace("*", ""): value for (key, value) in car_specs.items()}
 
     
     ## betriebskosten
@@ -129,7 +129,7 @@ def scrape_cars(driver, cars, km, canton):
 
 
 ## multiple vehicle_class and fuel_types should be accepted... however dropdown => can only select one! => iterate
-def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bound=0.5, headless=True):
+def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, buffer=0.5, headless=True):
 
     car = Car(vehicle_class, fuel_type, fuel_consumption)
 
@@ -167,14 +167,17 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bou
         for index, value in consumption.items():
             nu = value.split(" ")
             number, unit = float(nu[0]), nu[1]
-            if number > car.fuel_consumption - bound and number < car.fuel_consumption + bound:
+            if number > car.fuel_consumption - buffer and number < car.fuel_consumption + buffer:
                 idx.append(True)
             else:
                 idx.append(False)
 
         relevant_cars = list(compress(table_rows, idx))
 
-        content = helper.scrape_cars(driver, relevant_cars, km, canton)
+        if len(relevant_cars) == 0:
+            raise Exception("No similar cars found. A missmatch between model and consumption? Consider increasing buffer.")
+
+        content = scrape_cars(driver, relevant_cars, km, canton)
 
 
     
@@ -190,13 +193,9 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bou
 
 #%%
 if __name__ == "__main__":
-    # data = get_base_table()
-    # print(data)
-
-    cars = get_similar_cars("Mikroklasse", "Benzin", 5, 20e3, "AI", headless=True)
-    
-    print(cars)
+    data = get_base_table(headless=True)
+    cars = get_similar_cars("SUV S", "Benzin", fuel_consumption=5, km=10e3, canton="AG", buffer=1, headless=True)
 
 
 
-
+# %%

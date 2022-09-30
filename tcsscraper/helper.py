@@ -20,7 +20,7 @@ class EndOfTable:
     def __init__(self, driver):
         self.driver = driver
     
-    def tick(self, verbose=True):
+    def tick(self, verbose=False):
         if verbose:
             print("Scrolling table...")
         
