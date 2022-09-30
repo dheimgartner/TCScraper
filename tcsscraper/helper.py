@@ -1,14 +1,11 @@
 from argparse import Action
+import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
 import time
-import pandas as pd
-import json
-import scrape
-
 
 
 SLIDER_MIN = 5e3
@@ -163,10 +160,4 @@ class Slider:
         self.move_to_target_from_position(target=target, position=self.start)
 
 
-def scrape_cars(driver, cars, km, canton):
 
-    content = []
-    for c in cars:
-        car = scrape.scrape_one_car(driver, c, km, canton)
-        content.append(car)
-    return content

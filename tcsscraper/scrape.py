@@ -1,19 +1,16 @@
 #%%
+import pandas as pd
+from itertools import compress
 from shutil import ExecError
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-import pandas as pd
-
 import time
 
 import helper
 from helper import Car
-
-from itertools import compress
 
 
 
@@ -64,7 +61,74 @@ def get_base_table(headless=True):
 
 
 
-## multiple vehicle_class and fuel_types should be accepted...
+
+def scrape_one_car(driver, car, km, canton, verbose=True):
+
+    wait_variable = WebDriverWait(driver, timeout=10)
+
+    ## popup
+    popup = wait_variable.until(lambda x: car.find_element(By.CSS_SELECTOR, "td"))
+    driver.execute_script("arguments[0].click();", popup)
+
+    time.sleep(0.5)
+
+    xpath = "//div[@id='lightbox-content']"
+
+    box = wait_variable.until(lambda d: d.find_element(By.XPATH, xpath))
+
+    canton_dropdown = Select(box.find_element(By.CSS_SELECTOR, "select"))
+    canton_dropdown.select_by_visible_text(canton)
+
+    ## spezifikationen
+    specifications = wait_variable.until(lambda d: d.find_element(By.XPATH, xpath))
+    table_rows = specifications.find_elements(By.CSS_SELECTOR, "tr")
+    content = scrape_table_rows(table_rows)
+    rows = content["rows"]
+
+    ## some cleaning
+    car_specs = {r[0]: r[1] for r in rows if r[0].strip()}
+    car_specs.pop("Kanton")
+    car_specs = {key.replace("\n", "").replace("\*", ""): value for (key, value) in car_specs.items()}
+
+    
+    ## betriebskosten
+    specifications.find_element(By.XPATH, "//ul[@id='lnav']//li[@tab='1']").click()
+
+
+    srange = driver.find_element(By.XPATH, "//div[@id='popup_slider1']/div")
+    shandle = driver.find_element(By.XPATH, "//div[@id='popup_slider1']/span")
+
+    slider = Slider(driver, shandle)
+    slider.reset_and_move(target=km)
+
+    costs = driver.find_element(By.XPATH, "//div[@id='tco-box']")
+    car_costs = costs.text.split("\n")
+    car_costs = [cc.strip().replace(":", "") for cc in car_costs]
+    it = iter(car_costs)
+    car_costs = dict(zip(it, it))
+
+    ## close popup
+    close_popup = wait_variable.until(lambda d: d.find_element(By.XPATH, "//div[@id='lightbox']/div/div"))
+    close_popup.click()
+
+    if verbose:
+        print("Extracted {} {} {}".format(car_specs["Marke"], car_specs["Modell"], car_specs["Ausführung"]))
+
+    return {"specs": car_specs, "costs": car_costs, "km": km, "canton": canton}
+
+
+
+def scrape_cars(driver, cars, km, canton):
+
+    content = []
+    for c in cars:
+        car = scrape_one_car(driver, c, km, canton)
+        content.append(car)
+    return content
+
+
+
+## multiple vehicle_class and fuel_types should be accepted... however dropdown => can only select one! => iterate
 def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bound=0.5, headless=True):
 
     car = Car(vehicle_class, fuel_type, fuel_consumption)
@@ -136,4 +200,3 @@ if __name__ == "__main__":
 
 
 
-    
