@@ -9,10 +9,6 @@ def tcs_request(page = 100):
 
 
 
-
-
-
-
 if __name__ == "__main__":
     out = tcs_request()
     print(out)
