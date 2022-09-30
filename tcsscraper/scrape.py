@@ -121,7 +121,7 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bou
 
     driver.quit()
     return content
-    
+
 
 
 #%%
@@ -132,4 +132,8 @@ if __name__ == "__main__":
     cars = get_similar_cars("Mikroklasse", "Benzin", 5, 20e3, "AI", headless=True)
     
     print(cars)
-# %%
+
+
+
+
+    
