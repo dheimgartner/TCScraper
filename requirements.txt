@@ -7,7 +7,7 @@ bleach==4.1.0
 certifi==2022.9.24
 cffi==1.15.1
 charset-normalizer==2.0.12
-dataclasses==0.8
+dataclasses
 decorator==5.1.1
 defusedxml==0.7.1
 entrypoints==0.4

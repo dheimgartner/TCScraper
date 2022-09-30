@@ -1,3 +1,4 @@
+#%%
 from shutil import ExecError
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -15,6 +16,7 @@ from helper import Car
 from itertools import compress
 
 
+#%%
 def get_base_table(headless=True):
 
     driver = helper.set_up_driver(headless)
@@ -67,7 +69,7 @@ def get_base_table(headless=True):
 
 
 
-
+#%%
 ## multiple vehicle_class and fuel_types should be accepted...
 def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bound=0.5, headless=True):
 
@@ -130,7 +132,7 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, bou
 
 
 
-
+#%%
 if __name__ == "__main__":
     # data = get_base_table()
     # print(data)
