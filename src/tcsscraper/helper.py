@@ -8,6 +8,7 @@ from selenium.webdriver.support.ui import Select, WebDriverWait
 import time
 
 
+
 SLIDER_MIN = 5e3
 SLIDER_MAX = 50e3
 SLIDER_START = 15e3
@@ -34,12 +35,12 @@ class EndOfTable:
 
 
 
-def load_dynamic_table(driver, sleep=0.5):
+def load_dynamic_table(driver, sleep=0.5, verbose=False):
     end = EndOfTable(driver)
     while True:
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(sleep)
-        if end.tick() == 1:
+        if end.tick(verbose=verbose) == 1:
             break
 
 
