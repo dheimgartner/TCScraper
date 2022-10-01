@@ -14,6 +14,7 @@ from .helper import Car, Slider
 
 
 TIMEOUT = 60
+SLEEP = 0.5
 
 
 def get_base_table(headless=True, verbose=False):
@@ -73,7 +74,7 @@ def scrape_one_car(driver, car, km, canton, verbose=False):
     popup = car.find_element(By.CSS_SELECTOR, "td")
     driver.execute_script("arguments[0].click();", popup)
 
-    time.sleep(0.5)
+    time.sleep(SLEEP)
 
     xpath = "//div[@id='lightbox-content']"
 
@@ -103,7 +104,7 @@ def scrape_one_car(driver, car, km, canton, verbose=False):
     shandle = wait_variable.until(lambda d: d.find_element(By.XPATH, "//div[@id='popup_slider1']/span"))
 
     slider = Slider(driver, shandle)
-    slider.reset_and_move(target=km)
+    slider.move_to_target(target=km)
 
     costs = wait_variable.until(lambda d: d.find_element(By.XPATH, "//div[@id='tco-box']"))
     car_costs = costs.text.split("\n")

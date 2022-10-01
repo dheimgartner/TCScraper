@@ -12,6 +12,7 @@ import time
 SLIDER_MIN = 5e3
 SLIDER_MAX = 50e3
 SLIDER_START = 15e3
+SLEEP = 0.5
 
 
 
@@ -35,7 +36,7 @@ class EndOfTable:
 
 
 
-def load_dynamic_table(driver, sleep=0.5, verbose=False):
+def load_dynamic_table(driver, sleep=SLEEP, verbose=False):
     end = EndOfTable(driver)
     while True:
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -124,7 +125,7 @@ class Slider:
     """Acts on handle
     """
 
-    def __init__(self, driver, slider_handle, step_size=[5, 1e3], min=SLIDER_MIN, max=SLIDER_MAX, start=SLIDER_START):
+    def __init__(self, driver, slider_handle, step_size=[5, 1e3], min=SLIDER_MIN, max=SLIDER_MAX, position=SLIDER_START):
         """Manipulate slider object
 
         Args:
@@ -133,12 +134,14 @@ class Slider:
             step_size (list, optional): 5 pix == 1000km. Defaults to [5, 1e3].
             min (int, optional): Slider lower bound. Defaults to SLIDER_MIN.
             max (int, optional): Slider upper bound. Defaults to SLIDER_MAX.
-            start(int, optional): Slider initial position. Defaults to SLIDER_START.
+            position(int, optional): Current position of the slider. Defaults to SLIDER_START.
         """
-        self.driver, self.slider_handle, self.step_size, self.min, self.max, self.start = driver, slider_handle, step_size, min, max, start
+        self.driver, self.slider_handle, self.step_size, self.min, self.max, self.position = driver, slider_handle, step_size, min, max, position
     
-    def compute_offset(self, target, start):
-        diff = target - start
+    def compute_offset(self, target):
+        if target < self.min:
+            raise Exception("Target < min of slider range")
+        diff = target - self.position
         step = int(diff / self.step_size[1])
         offset = step * self.step_size[0]
         return offset
@@ -146,19 +149,18 @@ class Slider:
     def drag_and_drop_by_offset(self, x):
         ## by pixels...
         ActionChains(self.driver).drag_and_drop_by_offset(self.slider_handle, x, 0).perform()
+        time.sleep(SLEEP)
 
-    def move_to_target_from_position(self, target, position):
-        offset = self.compute_offset(target, position)
+    def move_to_target(self, target):
+        offset = self.compute_offset(target)
         self.drag_and_drop_by_offset(x=offset)
+        ## update position
+        self.position = target
 
-    def reset_slider(self, position=None):
-        if position is None:
-            position = self.start
-        self.move_to_target_from_position(target=self.min, position=position)
-
-    def reset_and_move(self, target):
-        self.reset_slider()
-        self.move_to_target_from_position(target=target, position=self.start)
+    def reset_slider(self):
+        self.move_to_target(target=self.min)
+        ## update position
+        self.position = self.min
 
 
 
