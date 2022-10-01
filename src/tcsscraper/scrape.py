@@ -9,8 +9,8 @@ from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-import helper
-from helper import Car, Slider
+from . import helper
+from .helper import Car, Slider
 
 
 
