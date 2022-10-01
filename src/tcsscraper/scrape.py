@@ -198,11 +198,4 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, buf
 
 
 
-#%%
-if __name__ == "__main__":
-    # data = get_base_table(headless=True)
-    cars = get_similar_cars("SUV S", "Benzin", fuel_consumption=5, km=10e3, canton="AG", buffer=1, headless=True, verbose=True)
 
-
-
-# %%
