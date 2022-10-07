@@ -1,4 +1,5 @@
 #%%
+import logging
 import time
 from itertools import compress
 from shutil import ExecError
@@ -58,6 +59,7 @@ def get_base_table(headless=True, verbose=False):
         data.columns = colnames
 
     except Exception as e:
+        logging.warning("Exception occured: could not retrieve base table")
         print(e)
         driver.quit()
         return None
@@ -231,6 +233,7 @@ def get_cars(
             relevant_cars = table_rows
 
         if len(relevant_cars) == 0:
+            logging.info("No relevant cars found")
             raise NoSimilarCar(
                 "No similar cars found. A missmatch between model and consumption? Consider increasing buffer."
             )
@@ -238,6 +241,7 @@ def get_cars(
         content = scrape_cars(driver, relevant_cars, km, canton, verbose=verbose)
 
     except Exception as e:
+        logging.warning("Exception occured: could not get cars")
         driver.quit()
         raise e
 

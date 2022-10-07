@@ -1,3 +1,4 @@
+import logging
 import time
 from argparse import Action
 
@@ -56,6 +57,7 @@ def set_up_driver(headless=True, maximize=False):
         driver.get(base_url)
 
     except Exception as e:
+        logging.warning('Exception occured: could not set up driver')
         print(e)
         return None
 
