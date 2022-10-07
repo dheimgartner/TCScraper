@@ -5,6 +5,7 @@
 import unittest
 
 from tcsscraper import scrape as tcs
+from tcsscraper.helper import Car
 
 
 class TestTcsScraper(unittest.TestCase):
@@ -13,8 +14,9 @@ class TestTcsScraper(unittest.TestCase):
         base_table = tcs.get_base_table(headless=True)
         self.assertTrue(base_table is not None)
 
-    def test_get_similar_cars(self):
-        similar_cars = tcs.get_similar_cars("SUV S", "Benzin", fuel_consumption=5, km=10e3, canton="AG", buffer=1)
+    def test_get_cars(self):
+        car = Car("SUV S", "Benzin", fuel_consumption=5)
+        similar_cars = tcs.get_cars(car, km=10e3, canton="AG", similar={'flag': True, 'buffer': 1})
         self.assertTrue(similar_cars is not None)
 
 

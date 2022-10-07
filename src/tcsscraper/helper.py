@@ -8,12 +8,10 @@ from selenium.webdriver.support.ui import Select, WebDriverWait
 import time
 
 
-
 SLIDER_MIN = 5e3
 SLIDER_MAX = 50e3
 SLIDER_START = 15e3
 SLEEP = 0.5
-
 
 
 class EndOfTable:
@@ -21,11 +19,11 @@ class EndOfTable:
 
     def __init__(self, driver):
         self.driver = driver
-    
+
     def tick(self, verbose=False):
         if verbose:
             print("Scrolling table...")
-        
+
         xpath = "//div[@id='cars']//tr[last()]"
         compare = self.driver.find_element(By.XPATH, xpath).text
         if compare == self.__benchmark:
@@ -33,7 +31,6 @@ class EndOfTable:
         else:
             self.__benchmark = compare
             return 0
-
 
 
 def load_dynamic_table(driver, sleep=SLEEP, verbose=False):
@@ -45,14 +42,13 @@ def load_dynamic_table(driver, sleep=SLEEP, verbose=False):
             break
 
 
-
 def set_up_driver(headless=True, maximize=False):
     options = webdriver.FirefoxOptions()
     if headless:
         options.add_argument("-headless")
 
     driver = webdriver.Firefox(options=options)
-    
+
     try:
         if maximize:
             driver.maximize_window()
@@ -66,21 +62,19 @@ def set_up_driver(headless=True, maximize=False):
     return driver
 
 
-
 def scrape_table_rows(table_rows):
     rows = []
     for r in table_rows:
         cells = r.find_elements(By.CSS_SELECTOR, "td")
         row = [c.text for c in cells]
         rows.append(row)
-    
-    return {"elements": table_rows, "rows": rows}
 
+    return {"elements": table_rows, "rows": rows}
 
 
 class Car:
     vehicle_classes = [
-        "Mikroklasse", 
+        "Mikroklasse",
         "Kleinwagen",
         "Untere Mittelklasse",
         "Mittelklasse",
@@ -94,8 +88,8 @@ class Car:
         "SUV XL",
         "Minivan S",
         "Minivan M",
-        "Minivan L"
-        ]
+        "Minivan L",
+    ]
 
     fuel_types = [
         "Benzin",
@@ -107,28 +101,47 @@ class Car:
         "Elektro mit Range Extender",
         "Plug-in Hybrid Benzin",
         "Plug-in Hybrid Diesel",
-        "Wasserstoff / Elektro"
-        ]
+        "Wasserstoff / Elektro",
+    ]
 
     def __init__(self, vehicle_class, fuel_type, fuel_consumption):
         if vehicle_class not in self.vehicle_classes:
-            raise NotValidCar("vehicle_class must be one of {}".format(Car.vehicle_classes))
+            raise NotValidCar(
+                "vehicle_class must be one of {}".format(Car.vehicle_classes)
+            )
 
         if fuel_type not in self.fuel_types:
             raise NotValidCar("fuel_type must be one of {}".format(Car.fuel_types))
-        
-        self.vehicle_class, self.fuel_type, self.fuel_consumption = vehicle_class, fuel_type, fuel_consumption
+
+        self.vehicle_class, self.fuel_type, self.fuel_consumption = (
+            vehicle_class,
+            fuel_type,
+            fuel_consumption,
+        )
 
     def __str__(self):
-        return '{:<17} {}\n{:<17} {}\n{:<17} {}'.format('vehicle_type:', self.vehicle_class, 'fuel_type:', self.fuel_type, 'fuel_consumption:', self.fuel_consumption)
-
+        return "{:<17} {}\n{:<17} {}\n{:<17} {}".format(
+            "vehicle_type:",
+            self.vehicle_class,
+            "fuel_type:",
+            self.fuel_type,
+            "fuel_consumption:",
+            self.fuel_consumption,
+        )
 
 
 class Slider:
-    """Acts on handle
-    """
+    """Acts on handle"""
 
-    def __init__(self, driver, slider_handle, step_size=[5, 1e3], min=SLIDER_MIN, max=SLIDER_MAX, position=SLIDER_START):
+    def __init__(
+        self,
+        driver,
+        slider_handle,
+        step_size=[5, 1e3],
+        min=SLIDER_MIN,
+        max=SLIDER_MAX,
+        position=SLIDER_START,
+    ):
         """Manipulate slider object
 
         Args:
@@ -139,8 +152,15 @@ class Slider:
             max (int, optional): Slider upper bound. Defaults to SLIDER_MAX.
             position(int, optional): Current position of the slider. Defaults to SLIDER_START.
         """
-        self.driver, self.slider_handle, self.step_size, self.min, self.max, self.position = driver, slider_handle, step_size, min, max, position
-    
+        (
+            self.driver,
+            self.slider_handle,
+            self.step_size,
+            self.min,
+            self.max,
+            self.position,
+        ) = (driver, slider_handle, step_size, min, max, position)
+
     def compute_offset(self, target):
         if target < self.min:
             raise Exception("Target < min of slider range")
@@ -148,10 +168,12 @@ class Slider:
         step = int(diff / self.step_size[1])
         offset = step * self.step_size[0]
         return offset
-    
+
     def drag_and_drop_by_offset(self, x):
         ## by pixels...
-        ActionChains(self.driver).drag_and_drop_by_offset(self.slider_handle, x, 0).perform()
+        ActionChains(self.driver).drag_and_drop_by_offset(
+            self.slider_handle, x, 0
+        ).perform()
         time.sleep(SLEEP)
 
     def move_to_target(self, target):
@@ -166,11 +188,9 @@ class Slider:
         self.position = self.min
 
 
-
 class NotValidCar(Exception):
     def __init__(self, message):
         super().__init__(message)
-
 
 
 class NoSimilarCar(Exception):
