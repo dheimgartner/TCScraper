@@ -134,9 +134,7 @@ def scrape_cars(driver, cars, km, canton, verbose=False):
 
 
 ## multiple vehicle_class and fuel_types should be accepted... however dropdown => can only select one! => iterate
-def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, buffer=0.5, headless=True, verbose=False):
-
-    car = Car(vehicle_class, fuel_type, fuel_consumption)
+def get_similar_cars(car_object, km, canton, buffer=0.5, headless=True, verbose=False):
 
     driver = helper.set_up_driver(headless)
     
@@ -151,12 +149,12 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, buf
         ## filter by vehicle_class
         vc_element = wait_variable.until(lambda d: d.find_element(By.NAME, "FzKlasse"))
         vc_dropdown = Select(vc_element)
-        vc_dropdown.select_by_visible_text(car.vehicle_class)
+        vc_dropdown.select_by_visible_text(car_object.vehicle_class)
 
         ## filter by fuel_type
         ft_element = wait_variable.until(lambda d: d.find_element(By.NAME, "Treibstoffart"))
         ft_dropdown = Select(ft_element)
-        ft_dropdown.select_by_visible_text(car.fuel_type)
+        ft_dropdown.select_by_visible_text(car_object.fuel_type)
 
 
         helper.load_dynamic_table(driver)
@@ -175,7 +173,7 @@ def get_similar_cars(vehicle_class, fuel_type, fuel_consumption, km, canton, buf
         for index, value in consumption.items():
             nu = value.split(" ")
             number, unit = float(nu[0]), nu[1]
-            if number > car.fuel_consumption - buffer and number < car.fuel_consumption + buffer:
+            if number > car_object.fuel_consumption - buffer and number < car_object.fuel_consumption + buffer:
                 idx.append(True)
             else:
                 idx.append(False)
