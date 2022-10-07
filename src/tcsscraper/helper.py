@@ -166,3 +166,10 @@ class Slider:
 
 
 
+class NoValidCar(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+
+class NoSimilarCar(Exception):
+    def __init__(self, message):
+        super().__init__(message)

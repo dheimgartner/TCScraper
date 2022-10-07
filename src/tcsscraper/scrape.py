@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 from . import helper
-from .helper import Car, Slider
+from .helper import Car, NoSimilarCar, Slider
 
 
 TIMEOUT = 60
@@ -181,16 +181,15 @@ def get_similar_cars(car_object, km, canton, buffer=0.5, headless=True, verbose=
         relevant_cars = list(compress(table_rows, idx))
 
         if len(relevant_cars) == 0:
-            raise Exception("No similar cars found. A missmatch between model and consumption? Consider increasing buffer.")
+            raise NoSimilarCar("No similar cars found. A missmatch between model and consumption? Consider increasing buffer.")
 
         content = scrape_cars(driver, relevant_cars, km, canton, verbose=verbose)
 
 
     
     except Exception as e:
-        print(e)
         driver.quit()
-        return None
+        raise e
 
     driver.quit()
     return content
