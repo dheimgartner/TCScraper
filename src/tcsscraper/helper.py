@@ -112,15 +112,16 @@ class Car:
 
     def __init__(self, vehicle_class, fuel_type, fuel_consumption):
         if vehicle_class not in self.vehicle_classes:
-            raise Exception("vehicle_class must be one of {}".format(Car.vehicle_classes))
+            raise NotValidCar("vehicle_class must be one of {}".format(Car.vehicle_classes))
 
         if fuel_type not in self.fuel_types:
-            raise Exception("fuel_type must be one of {}".format(Car.fuel_types))
+            raise NotValidCar("fuel_type must be one of {}".format(Car.fuel_types))
         
         self.vehicle_class, self.fuel_type, self.fuel_consumption = vehicle_class, fuel_type, fuel_consumption
 
     def __str__(self):
         return '{:<17} {}\n{:<17} {}\n{:<17} {}'.format('vehicle_type:', self.vehicle_class, 'fuel_type:', self.fuel_type, 'fuel_consumption:', self.fuel_consumption)
+
 
 
 class Slider:
@@ -166,9 +167,11 @@ class Slider:
 
 
 
-class NoValidCar(Exception):
+class NotValidCar(Exception):
     def __init__(self, message):
         super().__init__(message)
+
+
 
 class NoSimilarCar(Exception):
     def __init__(self, message):
