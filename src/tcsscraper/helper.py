@@ -1,12 +1,12 @@
+import time
 from argparse import Action
+
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select, WebDriverWait
-import time
-
 
 SLIDER_MIN = 5e3
 SLIDER_MAX = 50e3
