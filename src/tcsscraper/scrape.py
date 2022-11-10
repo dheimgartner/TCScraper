@@ -143,7 +143,11 @@ def scrape_cars(driver, cars, km, canton, verbose=False):
 
     content = []
     for c in cars:
-        car = scrape_one_car(driver, c, km, canton, verbose=verbose)
+        try:
+            car = scrape_one_car(driver, c, km, canton, verbose=verbose)
+        except Exception as e:
+            logging.warning("Exception occured: When calling scrape_one_car.")
+            car = None
         content.append(car)
     return content
 
