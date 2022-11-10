@@ -1,0 +1,2546 @@
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Toyota Aygo 1.0 VVT-i x-play man.
+Extracted Toyota Aygo 1.0 VVT-i x-play x-shift
+Extracted Renault Twingo Sce 65 Zen
+Extracted Hyundai i10 1.0 T-Gdi N-Line
+Extracted VW Up 1.0 MPI move up!
+Extracted Kia Picanto 1.0 CVVT Picanto
+Extracted Kia Picanto 1.0 T-Gdi GT-Line
+Extracted Kia Picanto 1.0 CVVT First Edition Auto.
+Extracted Hyundai i10 1.0 Pica
+Extracted Kia Picanto 1.2 CVVT Power
+Extracted VW Up 1.0 TSI GTI
+Extracted Kia Picanto 1.2 CVVT Power Aut.
+Extracted Hyundai i10 1.2 Amplia
+Extracted Hyundai i10 1.0 Origo auto.
+Extracted Hyundai i10 1.2 Amplia Auto.
+Extracted FIAT Panda 0.9 TwinAir 4x4 Wild
+Extracted FIAT 500 Abarth 695
+Extracted FIAT 500 Abarth 695 MTA
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Mitsubishi Space Star 1.2 Pure
+Extracted Toyota Yaris 1.5 Comfort
+Extracted Toyota Yaris 1.5 Comfort Multidrive S
+Extracted Mitsubishi Space Star 1.2 Pure Aut.
+Extracted Dacia Sandero SCe 65 Essential
+Extracted Dacia Sandero TCe 90 Essential
+Extracted Dacia Sandero Stepway TCe 90 Essential
+Extracted VW Polo 1.0 TSI 110 Comfortline
+Extracted Peugeot 208 PureTech 130 S&S EAT8 GT
+Extracted Peugeot 208 PureTech 100 S&S EAT8 Active Pack
+Extracted Hyundai i20 1.0 T-GDi 100 Pica
+Extracted Toyota Yaris 1.0 Active
+Extracted Seat Ibiza 1.0 EcoTSI 110 Style
+Extracted Audi A1 Allstreet 30 TFSI
+Extracted Opel Corsa 1.2 Edition
+Extracted Skoda Fabia 1.0 TSI Ambition 110
+Extracted Audi A1 30 TFSI
+Extracted Kia Rio 1.0 T-GDi Power
+Extracted Kia Rio 1.0 T-GDi Trend Mild-Hybrid
+Extracted Ford Fiesta 1.1 Trend 3 doors
+Extracted Ford Fiesta 1.1 Trend 5 doors
+Extracted Dacia Sandero TCe 110
+Extracted Hyundai i20 1.0 T-GDi 100 Origo DCT
+Extracted Opel Corsa 1.2 Edition Autom.
+Extracted Kia Rio 1.0 T-GDi Power DCT
+Extracted Peugeot 208 PureTech 100 S&S EAT8 Active Pack
+Extracted Skoda Fabia 1.0 MPI Active 65
+Extracted Renault Clio TCe 90 ZEN
+Extracted Opel Corsa 1.2
+Extracted Peugeot 208 PureTech 75 S&S Like
+Extracted Peugeot 208 PureTech 75 S&S Like
+Extracted Dacia Sandero TCe 90 Comfort
+Extracted Opel Corsa 1.2 GS Line
+Extracted VW Polo 1.0 TSI 110 Life DSG
+Extracted Citroen C3 PureTech 83 S&S Feel
+Extracted Citroen C3 PureTech 110 S&S Feel Pack
+Extracted Mini 3 Door One First
+Extracted Toyota Yaris Cross 1.5 Active
+Extracted Dacia Sandero TCe 90 Comfort CVT
+Extracted Dacia Sandero Stepway TCe 90 Comfort CVT
+Extracted Skoda Fabia 1.0 TSI Ambition 95
+Extracted Renault Clio Tce 140 Techno
+Extracted Audi A1 Allstreet 35 TFSI
+Extracted Skoda Fabia 1.0 MPI Ambition 80
+Extracted Kia Rio 1.2 CVVT Rio
+Extracted Mini 5 Door One First
+Extracted Seat Ibiza 1.0 EcoTSI 110 Style DSG
+Extracted Audi A1 30 TFSI S tronic
+Extracted Peugeot 208 PureTech 100 S&S Active Pack
+Extracted Renault Clio Sce 65 LIFE
+Extracted Mini 3 Door One
+Extracted Skoda Fabia 1.0 TSI Ambition 110 DSG
+Extracted Mini 3 Door One DKG
+Extracted Mini 5 Door One
+Extracted VW Polo 1.0 TSI 95 Life
+Extracted Mini 3 Door Cooper S DKG
+Extracted Mini 5 Door One DKG
+Extracted VW Polo 1.0 80 MPI
+Extracted Citroen C3 PureTech 110 S&S EAT6 Feel Pack
+Extracted Seat Ibiza 1.0 EcoTSI 95 Reference
+Extracted Ford Fiesta 1.0 EcoBoost 95 Trend 3 doors
+Extracted Ford Fiesta 1.0 EcoBoost 95 Trend 5 doors
+Extracted Renault Clio TCe 90 X-Tronic ZEN
+Extracted Mini 5 Door Cooper S DKG
+Extracted Audi A1 Allstreet 30 TFSI
+Extracted Audi A1 Allstreet 35 TFSI S tronic
+Extracted Mini 3 Door Cooper S
+Extracted Audi A1 25 TFSI
+Extracted VW Polo 1.0 TSI 95 Life DSG
+Extracted Citroen C3 Aircross PureTech 110 S&S Feel
+Extracted Mini 3 Door John Cooper Works Steptronic
+Extracted Mini 5 Door Cooper S
+Extracted Skoda Fabia 1.5 TSI Style 150 DSG
+Extracted Citroen C3 Aircross PureTech 130 S&S Swiss Edition EAT6
+Extracted Ford Fiesta ST 1.5 EcoBoost 200
+Extracted Audi A1 40 TFSI S tronic
+Extracted Audi A1 25 TFSI S tronic
+Extracted Audi A1 35 TFSI S tronic
+Extracted Seat Ibiza 1.5 EcoTSI FR
+Extracted Audi A1 Allstreet 30 TFSI S tronic
+Extracted VW Polo 2.0 OPF GTI
+Extracted Hyundai i20 N
+Extracted VW Polo 1.5 TSI EVO ACT Comfortline DSG
+Extracted Mini 3 Door John Cooper Works
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Seat Leon 1.0 TSI Reference 90
+Extracted VW Taigo 1.0 TSI OPF Life
+Extracted Skoda Scala 1.0 TSI 110 Ambition
+Extracted Citroen C4 PureTech 130 S&S Feel
+Extracted Honda Civic 1.0 VTEC S
+Extracted Seat Leon 1.0 TSI Reference
+Extracted FIAT Tipo SW 1.0 T3 Tipo
+Extracted FIAT Tipo 1.0 T3 Tipo
+Extracted VW Taigo 1.0 TSI OPF Life
+Extracted Seat Leon 1.5 TSI Style 130
+Extracted VW Golf 1.0 TSI OPF Life
+Extracted VW Golf Variant 1.0 TSI OPF Life
+Extracted VW Golf 1.5 TSI OPF Life
+Extracted VW Golf Variant 1.5 TSI OPF 130 Life
+Extracted Skoda Scala 1.5 TSI 150 Ambition
+Extracted Renault Megane Grandtour TCe 115 Zen
+Extracted Seat Leon 1.5 TSI Style 150
+Extracted Audi A3 Lim 35 TFSI
+Extracted Audi A3 Sportback 35 TFSI
+Extracted VW Golf 1.5 TSI OPF Style
+Extracted VW Golf Variant 1.5 TSI OPF 150 Style
+Extracted Peugeot 308 SW Pure Tech 130 Active Pack
+Extracted Citroen C4 PureTech 100 S&S Live Pack
+Extracted Kia Ceed 1.5 T-GDi DCT Power
+Extracted Kia Ceed SW 1.5 T-GDi DCT Power
+Extracted VW Taigo 1.0 TSI OPF Life DSG
+Extracted BMW 1 5-door 118i
+Extracted BMW 1 5-door 120i Steptronic
+Extracted Mini Clubman One
+Extracted Mini Clubman Cooper
+Extracted Mini Clubman Cooper Steptronic
+Extracted Opel Astra 1.2 Lim Swiss
+Extracted Peugeot 308 Pure Tech 130 EAT8 Active Pack
+Extracted Peugeot 308 SW Pure Tech 130 EAT8 Active Pack
+Extracted VW Taigo 1.5 TSI OPF Style DSG
+Extracted Renault Megane Tce 140 Techno
+Extracted Renault Megane Tce 160 R.S. Line EDC
+Extracted Renault Megane Grandtour TCe 140 Techno
+Extracted Renault Megane Grandtour TCe 160 R.S. Line EDC
+Extracted Kia Ceed 1.5 T-Gdi Power
+Extracted Kia Ceed SW 1.5 T-Gdi Power
+Extracted Skoda Scala 1.5 TSI 150 Ambition DSG
+Extracted Renault Megane Tce 140 Techno EDC
+Extracted Mini Clubman One Steptronic
+Extracted Renault Megane Grandtour TCe 140 Techno EDC
+Extracted Opel Astra Sports Tourer 1.2 Turbo 110 Swiss
+Extracted Opel Astra 1.2 Lim Swiss
+Extracted Citroen C4 PureTech 130 S&S EAT8 Shine
+Extracted Skoda Scala 1.0 TSI 110 Ambition DSG
+Extracted Opel Astra Sports Tourer 1.2 Turbo 130 Swiss
+Extracted Opel Astra 1.2 Lim Swiss
+Extracted Kia Ceed 1.0 T-GDi
+Extracted Kia Ceed SW 1.0 T-GDI Classic
+Extracted Peugeot 308 Pure Tech 130 Active Pack
+Extracted Ford Focus 1.0 EcoBoost 100 Cool & Connect
+Extracted Ford Focus 1.0 EcoBoost 125 Cool & Connect
+Extracted Opel Astra Sports Tourer 1.2 Turbo 130 Swiss Auto.
+Extracted Citroen C4 PureTech 155 S&S EAT8 Shine
+Extracted BMW 1 5-door 118i Steptronic
+Extracted VW Golf 2.0 TSI OPF Style
+Extracted Kia Ceed GT 1.6 T-GDi DCT
+Extracted Kia ProCeed 1.6 T-Gdi GT
+Extracted Honda Civic 1.0 VTEC Elegance CVT
+Extracted Honda Civic 1.5 VTEC Sport Plus CVT
+Extracted BMW 1 5-door 128ti Steptronic
+Extracted Mercedes-Benz A 200
+Extracted Mercedes-Benz CLA 180
+Extracted Mercedes-Benz CLA 180 7G-DCT
+Extracted Mercedes-Benz CLA 200 7G-DCT
+Extracted Mercedes-Benz CLA 200
+Extracted Cupra Leon 2.0 TSI 245
+Extracted VW Golf 2.0 TSI OPF 4MOTION Style
+Extracted VW Golf 2.0 Variant TSI OPF 4MOTION Style
+Extracted VW Golf 2.0 Variant Alltrack TSI OPF 4MOTION
+Extracted BMW 1 5-door M135i xDrive
+Extracted VW Golf 2.0 TSI OPF GTI Clubsport
+Extracted Cupra Leon 2.0 TSI 300
+Extracted Subaru Impreza 1.6i Advantage Lineartronic
+Extracted VW Golf 2.0 TSI OPF GTI DSG
+Extracted Mercedes-Benz A 250 7G-DCT
+Extracted Audi A3 Sportback 40 TFSI quattro S tronic
+Extracted Audi A3 Lim 40 TFSI quattro S tronic
+Extracted Mercedes-Benz CLA 250 7G-DCT
+Extracted Mercedes-Benz A 200 4Matic 7G-DCT
+Extracted Mini Clubman John Cooper Works ALL4 Steptronic
+Extracted Mercedes-Benz CLA 200 4Matic 7G-DCT
+Extracted Hyundai i30 N 2.0 T-GDi
+Extracted Mercedes-Benz CLA 250 7G-DCT 4Matic
+Extracted VW Golf 2.0 TSI OPF 4MOTION R Performance
+Extracted VW Golf 2.0 TSI OPF GTI
+Extracted Ford Focus 2.3 EcoBoost 280 ST Aut.
+Extracted VW Golf 2.0 TSI OPF 4MOTION R
+Extracted Mercedes-Benz A 250 4Matic 7G-DCT
+Extracted Ford Focus 2.3 EcoBoost 280 ST
+Extracted Hyundai i30 N 2.0 T-GDi auto.
+Extracted Audi S3 Sportback TFSI quattro S tronic
+Extracted Audi S3 Lim TFSI quattro S tronic
+Extracted Renault Megane R.S. 300 Trophy EDC
+Extracted Mercedes-Benz CLA 45 AMG 4Matic
+Extracted Mercedes-Benz CLA 45 S AMG 4Matic
+Extracted Mercedes-Benz CLA Shooting Brake 45 AMG 4Matic
+Extracted Mercedes-Benz CLA Shooting Brake 45 S AMG 4Matic
+Extracted Mercedes-Benz A 35 AMG 4Matic+ 7G-DCT
+Extracted Mercedes-Benz A 45 AMG 4Matic+ 7G-DCT
+Extracted Mercedes-Benz A 45 S AMG 4Matic+ 7G-DCT
+Extracted Audi RS3 Sportback 2.5 TFSI quattro S tronic
+Extracted Audi RS4 3.0 TFSI Avant quattro tiptronic Competition
+Extracted Audi RS4 3.0 TFSI Avant quattro tiptronic
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Seat Leon Sportstourer 1.0 TSI Style
+Extracted Seat Leon Sportstourer 1.5 EcoTSI Style 130
+Extracted Seat Leon Sportstourer 1.5 TSI Style 150
+Extracted Skoda Octavia Combi 1.0 TSI
+Extracted Skoda Octavia Combi 1.5 TSI ACT EVO Ambition
+Extracted BMW 3 Limousine 318i Steptronic
+Extracted BMW 3 Limousine 320i Steptronic
+Extracted Peugeot 508 PureTech 130 S&S EAT8 Active
+Extracted Peugeot 508 SW PureTech 130 Active EAT 8
+Extracted VW Passat Variant 1.5 TSI Business
+Extracted BMW 4 Gran Coupé 420i
+Extracted VW Passat Variant 1.5 TSI Business DSG
+Extracted BMW 3 Touring 320i Steptronic
+Extracted BMW 3 Touring 318i Steptronic
+Extracted Mazda 6 Sedan Skyactiv-G 165 Revolution
+Extracted BMW 3 Limousine 320i xDrive Steptronic
+Extracted Renault Talisman Grandtour TCe 160 Zen EDC
+Extracted Mazda 6 Skyactiv-G 165 Revolution
+Extracted Mazda 6 SW Skyactiv-G 165 Ambition
+Extracted BMW 3 Limousine 330i xDrive Steptronic
+Extracted BMW 3 Touring 330i xDrive Steptronic
+Extracted BMW 4 Gran Coupé 430i xDrive Steptronic
+Extracted Cupra Leon Sportstourer 2.0 TSI 245
+Extracted VW Passat Variant 2.0 TSI DSG
+Extracted Mazda 6 SW Skyactiv-G 165 Ambition Drive
+Extracted Skoda Octavia Combi RS 2.0 TSI DSG
+Extracted Mazda 6 Sedan Skyactiv-G 194 Revolution Drive
+Extracted Mazda 6 Skyactiv-G 194 Revolution Drive
+Extracted Alfa Romeo Giulia Ti 2.0 280 AT8
+Extracted Alfa Romeo Giulia Super 2.0
+Extracted BMW 4 Gran Coupé 420i Steptronic
+Extracted Skoda Octavia Combi 2.0 TSI DSG 4x4
+Extracted BMW 4 Gran Coupé 420i xDrive Steptronic
+Extracted Opel Insignia Grand Sport 2.0 T 170 Edition
+Extracted Opel Insignia Grand Sport 2.0 T 200 Elegance Aut.
+Extracted Opel Insignia Sports Tourer 2.0 T 200 Elegance Aut.
+Extracted Alfa Romeo Giulia Veloce 2.0 Q4 280 AT8
+Extracted Subaru Outback 2.5i Swiss Lineartronic
+Extracted Cupra Leon Sportstourer 2.0 TSI 4Drive
+Extracted Opel Insignia Grand Sport 2.0 T 230 GSi 4WD Elegance
+Extracted Opel Insignia Sports Tourer 2.0 T 230 GSi 4WD
+Extracted BMW 4 Gran Coupé 440i xDrive Steptronic
+Extracted VW Arteon SB 2.0 TSI OPF 4MOTION Elegance
+Extracted VW Passat Variant 2.0 TSI Elegance DSG 4M
+Extracted VW Passat Variant Alltrack 2.0 TSI Elegance DSG 4M
+Extracted Genesis G70 Premium 2.0T RWD
+Extracted Jaguar XE P250 Auto.
+Extracted Genesis G70 Luxus 2.0T AWD
+Extracted VW Arteon SB 2.0 TSI OPF R 4MOTION
+Extracted Jaguar XE P300 AWD Auto.
+Extracted BMW 3 Limousine M3
+Extracted Audi RS5 Sportback 2.9 TFSI quattro tiptronic Competition
+Extracted Audi RS5 Coupé 2.9 TFSI quattro tiptronic Competition
+Extracted Alfa Romeo Giulia Quadrifoglio 2.9 V6 Biturbo 510 AT8
+Extracted Audi RS5 Sportback 2.9 TFSI quattro tiptronic
+Extracted Audi RS5 Coupé 2.9 TFSI quattro tiptronic
+Extracted Alfa Romeo Giulia GTA Quadrifoglio MY21
+Extracted Alfa Romeo Giulia GTAm Quadrifoglio MY21
+Extracted BMW Alpina 3 Limousine B3
+Extracted BMW Alpina 3 Touring B3
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted DS Automobiles DS 9 PureTech 225 EAT8 Performance Line
+Extracted Skoda Superb Combi 2.0 TSI Scout 4x4 DSG
+Extracted Skoda Superb Combi 2.0 TSI L&K 4x4 DSG
+Extracted Genesis G80 Premium 2.5T AWD
+Extracted BMW 5 Limousine M550i xDrive Steptronic
+Extracted Kia Stinger 3.3 T-GDi GT Aut. 4WD
+Extracted BMW 5 Limousine M5 xDrive Drivelogic
+Extracted BMW Alpina 5 Limousine B5 Bi-Turbo Allrad
+Extracted Maserati Ghibli Modena
+Extracted Maserati Ghibli S Q4 Modena
+Extracted BMW Alpina 5 Touring B5 Bi-Turbo Allrad
+Extracted Maserati Ghibli V8 Trofeo
+Extracted Mercedes-Benz E 63 AMG 4Matic+
+Extracted Mercedes-Benz E 63 S AMG 4MAtic+
+Extracted Mercedes-Benz E 63 T AMG 4Matic+
+Extracted Mercedes-Benz E 63 T S AMG 4MAtic+
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted BMW 7 Limousine 740Li xDrive
+Extracted BMW 8 Coupé 840i xDrive
+Extracted BMW 8 Gran Coupé 840i xDrive
+Extracted BMW 8 Cabriolet 840i xDrive
+Extracted BMW 7 Limousine 750i xDrive
+Extracted BMW 7 Limousine 750Li xDrive
+Extracted BMW 8 Coupé M850i xDrive
+Extracted BMW 8 Gran Coupé M850i xDrive
+Extracted BMW 8 Coupé M8
+Extracted BMW 8 Cabriolet M8
+Extracted Maserati Quattroporte V6 Modena
+Extracted BMW 8 Gran Coupé M8 600 PS
+Extracted BMW 8 Gran Coupé M8
+Extracted BMW Alpina 8 Gran Coupé B8
+Extracted Maserati Quattroporte V6 GT
+Extracted Maserati Quattroporte V8 Trofeo
+Extracted Mercedes-Benz S Maybach 680 4Matic
+Extracted Rolls-Royce Ghost -
+Extracted Rolls-Royce Ghost Extended Wheelbase
+Extracted Rolls-Royce Phantom -
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted BMW 4 Coupé 420i Steptronic
+Extracted BMW 4 Coupé 420i xDrive Steptronic
+Extracted BMW 4 Coupé 430i Steptronic
+Extracted Alpine A110 -
+Extracted Alpine A110 GT
+Extracted Alpine A110 S
+Extracted BMW Z4 sDrive20i Steptronic
+Extracted BMW Z4 sDrive30i Steptronic
+Extracted Toyota GR Supra 2.0 Toyota GR Supra Sport
+Extracted BMW Z4 sDrive20i
+Extracted BMW 4 Coupé 430i xDrive Steptronic
+Extracted BMW Z4 M40i
+Extracted Toyota GR Supra 3.0 Toyota GR Supra Premium
+Extracted BMW 2 Coupé M240i xDrive Steptronic
+Extracted Toyota GR86 2.4 Coupe Sport Aut.
+Extracted Toyota GR86 2.4 Coupe Sport
+Extracted Toyota GR Supra 3.0 Toyota GR Supra Race man.
+Extracted Toyota GR Supra 3.0 Toyota GR Supra Premium man.
+Extracted Audi TTS Coupé 2.0 TFSI 306 quattro S tronic
+Extracted Audi TTS Roadster 2.0 TFSI 306 quattro S tronic
+Extracted Porsche 718 Cayman T PDK
+Extracted BMW 4 Coupé M4 CSL
+Extracted Porsche 718 Cayman S PDK
+Extracted BMW Alpina 4 Gran Coupé B4 Allrad
+Extracted Porsche 911 Carrera PDK
+Extracted Porsche 911 Carrera 4 PDK
+Extracted Aston Martin DB11 V8
+Extracted Porsche 911 Carrera S PDK
+Extracted Porsche 911 Carrera 4S PDK
+Extracted Lexus LC 500 excellence
+Extracted Ford Mustang Fastback 5.0 V8 GT Powershift
+Extracted Aston Martin Vantage F1 edition
+Extracted Lexus LC Cabriolet 500 excellence
+Extracted McLaren Coupé GT
+Extracted Ford Mustang Fastback 5.0 V8 GT
+Extracted Chevrolet Corvette Coupé Stingray
+Extracted McLaren Coupé 720S
+Extracted McLaren Coupé 600LT
+Extracted McLaren Coupé Senna
+Extracted Porsche 911 Turbo S PDK
+Extracted Porsche 911 Turbo S Cabriolet PDK
+Extracted Ferrari F8 Tributo
+Extracted Porsche 718 Cayman GT4 RS
+Extracted Aston Martin DB11 V12 AMR
+Extracted Audi R8 Coupé V10 performance RWD
+Extracted Ferrari Monza SP1
+Extracted Ferrari Monza SP2
+Extracted Ferrari 812 Superfast
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Caterham Seven S3 170
+Extracted BMW 2 Gran Coupé 220i Steptronic
+Extracted Mazda MX-5 Skyactiv-G 132 Ambition
+Extracted Mazda MX-5 RF Skyactiv-G 132 Ambition
+Extracted BMW 2 Gran Coupé 218i Steptronic
+Extracted BMW 2 Coupé 230i Steptronic
+Extracted BMW 2 Gran Coupé 218i
+Extracted BMW 2 Coupé 220i Steptronic
+Extracted Mini Cabrio Cooper S Steptronic
+Extracted Mazda MX-5 Skyactiv-G 184 Ambition
+Extracted Mazda MX-5 RF Skyactiv-G 184 Ambition
+Extracted Morgan Plus Four 2.0 auto
+Extracted FIAT 500 Abarth 595 Turismo
+Extracted FIAT 500 Abarth 595 Turismo MTA
+Extracted BMW 2 Gran Coupé M235i
+Extracted Mini Cabrio John Cooper Works Steptronic
+Extracted Morgan Plus Four 2.0
+Extracted BMW 2 Gran Coupé 220i xDrive Steptronic
+Extracted Mini Cabrio John Cooper Works
+Extracted BMW 4 Cabrio 430i
+Extracted BMW 4 Cabrio 420i
+Extracted Mazda MX-5 RF Skyactiv-G 184 Revolution Drive
+Extracted Audi TT Coupé 45 TFSI S tronic
+Extracted Audi TT Roadster 45 TFSI S tronic
+Extracted Morgan Plus Six B58 Twin Power
+Extracted BMW 4 Cabrio 430i xDrive
+Extracted Audi TT Coupé 45 TFSI quattro S tronic
+Extracted Audi TT Roadster 45 TFSI quattro S tronic
+Extracted BMW 2 Cabrio M240i Steptronic
+Extracted BMW 2 Cabrio M240i xDrive Steptronic
+Extracted Porsche 718 Boxster T PDK
+Extracted Audi S5 Cabrio TFSI quattro tiptronic
+Extracted Porsche 718 Boxster S PDK
+Extracted Porsche 718 Boxster GTS
+Extracted Porsche 911 Carrera Cabriolet PDK
+Extracted Porsche 911 Carrera 4 Cabriolet PDK
+Extracted Porsche 911 Carrera S Cabriolet PDK
+Extracted Ferrari Roma -
+Extracted Ferrari Portofino M
+Extracted Aston Martin DB11 Volante Cabrio
+Extracted Porsche 911 Carrera 4S Cabriolet PDK
+Extracted Lotus Emira V6 First Edition
+Extracted Aston Martin Vantage Roadster
+Extracted Ford Mustang Convertible 5.0 V8 GT Powershift
+Extracted Aston Martin Vantage V8 Coupé Aut.
+Extracted Aston Martin Vantage V8 Coupé
+Extracted Ford Mustang Convertible 5.0 V8 GT
+Extracted Chevrolet Corvette Cabriolet Stingray
+Extracted McLaren Spider 570S
+Extracted McLaren Spider 720S
+Extracted McLaren Spider 600LT
+Extracted Porsche 911 Sport Classic
+Extracted Ferrari F8 Spider
+Extracted Mercedes-Benz AMG SL Roadster 55 4matic
+Extracted Mercedes-Benz AMG SL Roadster 63 4matic
+Extracted Audi R8 Spyder V10 performance RWD
+Extracted Ferrari Daytona SP3
+---
+vehicle_type:     SUV S
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Seat Arona 1.0 EcoTSI 110 Style
+Extracted Hyundai Bayon 1.0 T-GDi Origo DCT
+Extracted Skoda Kamiq 1.0 TSI 115 Ambition
+Extracted Hyundai Bayon 1.0 T-GDi Pica
+Extracted Skoda Kamiq 1.0 TSI Ambition
+Extracted VW T-Cross 1.0 TSI 110 Life
+Extracted Skoda Kamiq 1.5 TSI 150 Style
+Extracted Kia Stonic 1.0 T-GDi Power
+Extracted Kia Stonic 1.0 T-GDi DCT Power
+Extracted VW T-Cross 1.5 TSI ACT OPF Life
+Extracted Peugeot 2008 PureTech 100 Active
+Extracted Nissan Juke 1.0 DIG-T Visia
+Extracted Kia Stonic 1.2 CVVT Stonic
+Extracted DS Automobiles DS 3 Crossback PureTech 130 EAT8 Bastille
+Extracted Peugeot 2008 PureTech 130 Active Pack EAT8
+Extracted Skoda Kamiq 1.5 TSI 150 Style DSG
+Extracted Mazda CX-3 Skyactiv-G 121 FWD Ambition
+Extracted Seat Arona 1.0 EcoTSI 95 Style
+Extracted DS Automobiles DS 3 Crossback PureTech 100 Bastille
+Extracted Opel Mokka 1.2 Edition 74
+Extracted Opel Mokka 1.2 Edition 96
+Extracted Peugeot 2008 PureTech 130 Active
+Extracted Audi Q2 35 TFSI
+Extracted VW T-Cross 1.0 TSI 110 DSG Life
+Extracted VW T-Roc 1.0 TSI Life
+Extracted VW T-Roc Cabrio 1.5 TSI EVO Style
+Extracted VW T-Roc Cabrio 1.5 TSI EVO DSG Style
+Extracted VW T-Roc 1.5 TSI EVO Life
+Extracted VW T-Roc 1.5 TSI EVO DSG Life
+Extracted Seat Arona 1.5 TSI FR
+Extracted Opel Crossland 1.2 Turbo 130 Edition
+Extracted Nissan Juke 1.0 DIG-T Acenta Auto
+Extracted Audi Q2 35 TFSI S tronic
+Extracted Ford Puma 1.0 EcoBoost Hybrid 125 Titanium
+Extracted Opel Crossland 1.2 Turbo 110 Edition
+Extracted Opel Mokka 1.2 Edition 96 auto.
+Extracted VW T-Cross 1.0 TSI 95 Life
+Extracted Opel Crossland 1.2 Edition
+Extracted Ford Puma 1.0 EcoBoost Hybrid 125 Titanium auto.
+Extracted Ford Puma 1.0 EcoBoost Cool & Connect
+Extracted Opel Crossland 1.2 Turbo 130 Auto. Edition
+Extracted Skoda Kamiq 1.0 TSI 115 Ambition DSG
+Extracted DS Automobiles DS 3 Crossback PureTech 155 EAT8 Bastille
+Extracted Peugeot 2008 PureTech 155 GT EAT8
+Extracted Ssangyong Tivoli 1.2 GDi-T Crystal 2WD
+Extracted FIAT 500X 1.0 GSE Urban Look Cult
+Extracted Ford Puma ST 1.5 EcoBoost 200
+Extracted Seat Arona 1.0 EcoTSI 110 DSG Style
+Extracted FIAT 500X 1.3 GSE Urban Look Connect DCT
+Extracted VW T-Roc Cabrio 1.0 TSI Style
+Extracted Ssangyong Tivoli 1.5 GDi-T Crystal 2WD
+Extracted Jeep Renegade 1.0 Turbo Night Eagle
+Extracted Mazda CX-3 Skyactiv-G 121 FWD Ambition Drive
+Extracted Mini Countryman Cooper S ALL4 Steptronic
+Extracted Ssangyong Tivoli 1.5 GDI-T Crystal 4WD
+Extracted Ssangyong Tivoli 1.5 GDI-T Amber 2WD Auto
+Extracted Audi Q2 40 TFSI quattro S tronic
+Extracted VW T-Roc 2.0 TSI 4Motion DSG Style
+Extracted Mini Countryman John Cooper Works ALL4 Steptronic
+Extracted Ssangyong Tivoli 1.5 GDI-T Amber 4WD Auto
+Extracted Audi SQ2 TFSI quattro S tronic
+Extracted VW T-Roc 2.0 TSI 4Motion R DSG
+Extracted Jeep Wrangler 2.0 Turbo Sahara 2 Doors
+---
+vehicle_type:     SUV M
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Skoda Karoq 1.0 TSI Ambition
+Extracted BMW X1 sDrive18i
+Extracted BMW X2 sDrive18i
+Extracted Seat Ateca 1.0 EcoTSI Style
+Extracted Dacia Duster Tce 90 Access
+Extracted BMW X2 sDrive18i DKG
+Extracted Skoda Karoq 1.5 TSI Ambition DSG
+Extracted Kia XCeed 1.5 T-GDi DCT Power
+Extracted Skoda Karoq 1.5 TSI Ambition
+Extracted Kia XCeed 1.5 T-GDi Power
+Extracted BMW X2 sDrive20i DKG
+Extracted Dacia Duster Tce 130 PF Comfort
+Extracted Seat Ateca 1.5 EcoTSI ACT DSG Style
+Extracted Seat Ateca 1.5 EcoTSI Style
+Extracted Dacia Duster Tce 150 PF Prestige
+Extracted Renault Kadjar TCe 140 Intens EDC
+Extracted Renault Kadjar TCe 140
+Extracted Renault Kadjar TCe 160 Intens EDC
+Extracted Renault Kadjar TCe 160
+Extracted Audi Q3 35 TFSI
+Extracted Audi Q3 Sportback 35 TFSI
+Extracted DS Automobiles DS 4 PureTech 130 EAT8 Bastille
+Extracted VW Tiguan 1.5 TSI EVO 150 Life
+Extracted Dacia Duster Tce 130 PF Comfort 4WD
+Extracted Kia Sportage 1.6 T-GDi Sportage
+Extracted Peugeot 3008 PureTech 130 Active
+Extracted Opel Grandland 1.2 Turbo Edition
+Extracted Kia XCeed 1.6 T-GDi Style DCT
+Extracted Audi Q3 35 TFSI S tronic
+Extracted Audi Q3 Sportback 35 TFSI S tronic
+Extracted VW Tiguan 1.5 TSI EVO 130 Starter
+Extracted VW Tiguan 1.5 TSI EVO 150 Life DSG
+Extracted Jeep Compass 1.3l Turbo 150 Night Eagle 2WD
+Extracted Jeep Compass 1.3l Turbo Night Eagle 2WD
+Extracted BMW X1 xDrive25i
+Extracted BMW X1 xDrive20i
+Extracted BMW X2 xDrive 20i
+Extracted DS Automobiles DS 4 PureTech 180 EAT8 Trocadero
+Extracted Opel Grandland 1.2 Turbo Edition Auto.
+Extracted Peugeot 3008 PureTech 130 Active Pack EAT8
+Extracted Cupra Formentor 1.5 TSI 150 DSG
+Extracted DS Automobiles DS 4 PureTech 225 EAT8 Rivoli
+Extracted BMW X2 M35i
+Extracted Mercedes-Benz GLA 200 7G-DCT
+Extracted Mercedes-Benz GLA 180 7G-DCT
+Extracted Ssangyong Korando 1.5 GDI-T Crystal 2WD
+Extracted Skoda Karoq 2.0 TSI Sportline 4x4 DSG
+Extracted Volvo XC40 T2 Momentum Light
+Extracted Peugeot 3008 PureTech 180 GT EAT8
+Extracted Volvo XC40 T2 Geartronic Momentum Light
+Extracted Volvo XC40 T3 Geartronic Momentum Light
+Extracted Subaru XV 1.6i Advantage Lineartronic
+Extracted Cupra Formentor 2.0 TSI Cupra 245 VZ
+Extracted Ssangyong Korando 1.5 GDI-T Amber 2WD auto.
+Extracted Audi Q3 40 TFSI quattro S tronic
+Extracted Audi Q3 Sportback 40 TFSI quattro S tronic
+Extracted Ssangyong Korando 1.5 GDI-T Amber 4WD
+Extracted Mercedes-Benz GLA 250 8G-DCT
+Extracted Cupra Formentor 2.0 TSI Cupra 190
+Extracted VW Tiguan 2.0 TSI 190 Life 4Motion DSG
+Extracted Dacia Duster Tce 150 PF Prestige 4WD
+Extracted Mercedes-Benz GLA 250 4Matic 8G-DCT
+Extracted Audi Q3 45 TFSI quattro S tronic
+Extracted Audi Q3 Sportback 45 TFSI quattro S tronic
+Extracted VW Tiguan 2.0 TSI 245 R-Line 4Motion DSG
+Extracted Cupra Formentor 2.0 TSI Cupra 310 VZ
+Extracted Kia Sportage 1.6 T-GDi 4x4
+Extracted Cupra Ateca R Edition 2.0 TSI 4Drive
+Extracted Cupra Ateca 2.0 TSI 4Drive
+Extracted VW Tiguan 2.0 TSI 320 R 4Motion DSG
+Extracted Audi RS Q3 2.5 TFSI quattro S tronic
+Extracted Audi RS Q3 Sportback 2.5 TFSI quattro S tronic
+Extracted Cupra Formentor 2.5 TSI Cupra 390 VZ5
+---
+vehicle_type:     SUV L
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Citroen C5 X 1.2 i PureTech 130 S&S EAT8 Swiss Edition
+Extracted Mazda CX-5 Skyactiv-G 165 FWD Challenge
+Extracted Citroen C5 Aircross PureTech 130 S&S Live Pack
+Extracted Seat Tarraco 1.5 TSI EVO Style
+Extracted Renault Koleos TCe 160 EDC techno
+Extracted Toyota RAV4 2.0 Active 2WD
+Extracted Peugeot 5008 PureTech 130 Active
+Extracted Ford Kuga 1.5 EcoBoost 150 Cool & Connect
+Extracted Seat Tarraco 1.5 TSI EVO DSG Style
+Extracted VW Tiguan Allspace 1.5 TSI EVO 150 Life DSG
+Extracted Toyota RAV4 2.0 Comfort Multidrive S 4WD
+Extracted Ford Kuga 1.5 EcoBoost 120 Trend
+Extracted Toyota RAV4 2.0 Comfort 4WD
+Extracted Citroen C5 Aircross PureTech 130 S&S Shine EAT8
+Extracted Peugeot 5008 PureTech 130 Active Pack EAT8
+Extracted Mazda CX-5 Skyactiv-G 165 FWD Ambition Drive
+Extracted Citroen C5 X 1.6 i PureTech 180 S&S Shine
+Extracted DS Automobiles DS 7 Crossback PureTech 180 Bastille
+Extracted DS Automobiles DS 7 Crossback PureTech 225 EAT8 Rivoli
+Extracted Mazda CX-5 Skyactiv-G 165 AWD Ambition
+Extracted Nissan X-Trail 1.3 DIG-T 4x2 5-Pl. Acenta
+Extracted Nissan X-Trail 1.3 DIG-T 4x2 7-Pl. Acenta
+Extracted Peugeot 5008 PureTech 180 GT EAT8
+Extracted Mazda CX-5 Skyactiv-G 165 AWD Ambition Drive
+Extracted Mercedes-Benz GLB 250
+Extracted Mercedes-Benz GLB 180
+Extracted Mercedes-Benz GLB 200
+Extracted Mazda CX-5 Skyactiv-G 194 AWD Newground Drive
+Extracted Seat Tarraco 2.0 TSI 4 Drive Style 190
+Extracted Skoda Kodiaq 2.0 TSI 140 4x4 Style DSG
+Extracted VW Tiguan Allspace 2.0 TSI 190 Life 4Motion DSG
+Extracted Mercedes-Benz GLB 200 4Matic
+Extracted Seat Tarraco 2.0 TSI 4 Drive FR 245
+Extracted Skoda Kodiaq 2.0 TSI 180 4x4 RS DSG
+Extracted VW Tiguan Allspace 2.0 TSI 245 Elegance 4Motion DSG
+Extracted Alfa Romeo Stelvio Veloce 2.0 Q4 280 AT8
+Extracted Mercedes-Benz GLB 250 4Matic
+Extracted Alfa Romeo Stelvio Super 2.0 Q4 200 AT8
+Extracted Cadillac XT4 350T AWD Luxury
+Extracted Mercedes-Benz GLB AMG 35 4Matic
+Extracted Jaguar F-Pace P250 AWD Auto.
+Extracted BMW X4 M Steptronic
+Extracted Porsche Macan -
+Extracted Porsche Macan T
+Extracted BMW X3 M
+Extracted Mercedes-Benz GLC 43 AMG 4Matic
+Extracted Porsche Macan GTS
+Extracted Porsche Macan S
+Extracted Alfa Romeo Stelvio Quadrifoglio 2.9 V6 Biturbo Q4 510 AT8
+Extracted Land Rover Defender 90 P300 SE AWD
+Extracted Land Rover Defender 110 P300 SE AWD
+Extracted Jaguar F-Pace SVR
+Extracted Mercedes-Benz GLC 63 AMG 4Matic+
+Extracted Mercedes-Benz GLC 63 S AMG 4Matic+
+Extracted BMW Alpina XB7 Allrad
+---
+vehicle_type:     SUV XL
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Lexus RX 300 AWD Special Edition
+Extracted Genesis GV80 Premium 2.5T AWD
+Extracted VW Touareg 3.0 V6 TSI 4Motion Elegance
+Extracted BMW X6 M50i Steptronic
+Extracted Land Rover Discovery 2.0 P300 AWD Auto.
+Extracted BMW X5 M50i Steptronic
+Extracted Land Rover RR Sport 2.0 P300 Auto. SE
+Extracted Land Rover RR Sport 5.0 V8 P530 Auto. HSE
+Extracted Audi SQ7 TFSI quattro
+Extracted Audi SQ8 TFSI quattro
+Extracted Lamborghini Urus -
+Extracted BMW X6 M Steptronic
+Extracted BMW X6 M Steptronic
+---
+vehicle_type:     Minivan S
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Opel Combo 1.2 Turbo Life
+Extracted Peugeot Rifter PureTech 110 Active Pack
+Extracted Ford Tourneo Connect 1.5 l EcoBoost Titanium 114
+Extracted Ford Tourneo Connect 1.5 l EcoBoost Auto. Titanium 114
+Extracted Opel Combo 1.2 Turbo Edition Auto.
+Extracted Peugeot Rifter PureTech 130 S&S EAT8 Allure
+Extracted Peugeot Rifter Long PureTech 130 Allure Pack EAT8
+Extracted Citroen Berlingo PureTech 130 S&S Swiss Edition EAT8 5 Plätze
+Extracted Citroen Berlingo PureTech 130 S&S Feel Pack XL EAT8 7 Plätze
+Extracted Renault Kangoo 1.3 TCe 130 PF Edition equilibre
+Extracted Renault Kangoo 1.3 TCe 100 PF Edition equilibre
+Extracted Renault Kangoo 1.3 TCe 130 PF Edition equilibre EDC
+---
+vehicle_type:     Minivan M
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Dacia Jogger Tce 110 Essential 5 Pl.
+Extracted Dacia Jogger Tce 110 Essential 7 Pl.
+Extracted BMW 2 Active Tourer 218i
+Extracted BMW 2 Active Tourer 218i DKG
+Extracted Dacia Lodgy Tce 130 PF Comfort 5 pl.
+Extracted BMW 2 Gran Tourer 218i
+Extracted BMW 2 Gran Tourer 218i DKG
+Extracted BMW 2 Gran Tourer 216i
+Extracted Toyota Proace City Verso 1.2 Combi 110 Medium
+Extracted Toyota Proace City Verso 1.2 Combi 110 Long
+Extracted Dacia Lodgy Tce 130 PF Comfort 7 pl.
+Extracted BMW 2 Gran Tourer 220i DKG
+Extracted Toyota Proace City Verso 1.2 Combi 130 Medium Auto.
+Extracted Toyota Proace City Verso 1.2 Combi 130 Long Auto.
+Extracted Renault Scenic TCe 115 Life PF
+Extracted Mercedes-Benz B 180
+Extracted Mercedes-Benz B 160
+Extracted Renault Scenic TCe 140 Zen EDC PF
+Extracted Renault Scenic TCe 160 Intens EDC PF
+Extracted Mercedes-Benz B 180 7G-DCT
+Extracted BMW 2 Active Tourer 225i xDrive Steptronic
+Extracted Mercedes-Benz B 200
+Extracted Mercedes-Benz B 200 8G-DCT
+Extracted VW Touran 1.5 TSI Comfortline DSG
+Extracted VW Caddy Kombi 1.5 TSI
+Extracted VW Caddy Maxi Kombi 1.5 TSI
+Extracted VW Touran 1.5 TSI Comfortline
+Extracted VW Caddy 1.5 DSG
+Extracted VW Caddy Maxi 1.5 DSG
+Extracted Mercedes-Benz T 180
+Extracted Mercedes-Benz B 250 7G-DCT
+Extracted Mercedes-Benz T 180 7G-DCT
+Extracted Mercedes-Benz B 200 4Matic 7G-DCT
+Extracted Mercedes-Benz B 250 4Matic 7G-DCT
+---
+vehicle_type:     Minivan L
+fuel_type:        Benzin
+fuel_consumption: None
+---
+Extracted Seat Alhambra 1.4 TSI Style
+Extracted VW Multivan T7 1.5 TSI Liberty DSG
+Extracted VW Sharan 1.4 TSI Comfortline
+Extracted Seat Alhambra 1.4 TSI Style DSG
+Extracted VW Sharan 1.4 TSI Comfortline DSG
+Extracted VW Multivan T7 2.0 TSI Liberty DSG
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted Peugeot 208 BlueHDi 100 S&S Active
+Extracted Citroen C3 BlueHDi 100 S&S Swiss Edition
+Extracted Citroen C3 Aircross BlueHDi 110 S&S Feel Pack
+Extracted Citroen C3 Aircross BlueHDi 120 S&S Swiss Edition EAT6
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted VW Golf 2.0 TDI SCR Style DSG
+Extracted VW Golf Variant 2.0 TDI SCR 115 DSG Life
+Extracted FIAT Tipo 1.6 MultiJet City Life
+Extracted Audi A3 Sportback 35 TDI
+Extracted Audi A3 Lim 35 TDI
+Extracted Peugeot 308 BlueHDi 130 Active Pack
+Extracted Peugeot 308 SW BlueHDi 130 Active Pack
+Extracted Ford Focus 1.5 EcoBlue 95 Blue Edition
+Extracted Ford Focus 1.5 EcoBlue 120 Trend
+Extracted VW Golf Variant 2.0 TDI SCR 150 Life DSG
+Extracted FIAT Tipo SW 1.6 MultiJet City Life
+Extracted Mini Clubman Cooper D
+Extracted BMW 1 5-door 120d Steptronic
+Extracted Citroen C4 BlueHDi 130 S&S EAT8 Shine
+Extracted Mini Clubman Cooper D Steptronic
+Extracted Renault Megane Grandtour dCi 115 Equilibre EDC
+Extracted VW Golf 2.0 TDI SCR Style
+Extracted Opel Astra Sports Tourer 1.5 Edition 130 Swiss
+Extracted Opel Astra 1.5 Lim Swiss
+Extracted Seat Leon 2.0 TDI EVO Style DSG
+Extracted Opel Astra Sports Tourer 1.5 Edition 130 Swiss Auto.
+Extracted Opel Astra 1.5 Lim Swiss
+Extracted Ford Focus 2.0 EcoBlue 150 Cool & Connect
+Extracted Ford Focus 1.5 EcoBlue 120 Trend Aut.
+Extracted BMW 1 5-door 116d
+Extracted VW Golf Variant 2.0 TDI SCR 115 Life
+Extracted BMW 1 5-door 116d Steptronic
+Extracted Audi A3 Lim 30 TDI
+Extracted BMW 1 5-door 118d
+Extracted Peugeot 308 BlueHDi 130 EAT8 Active Pack
+Extracted Peugeot 308 SW BlueHDi 130 EAT8 Active Pack
+Extracted VW Golf 2.0 TDI SCR 4MOTION Life
+Extracted Ford Focus 2.0 EcoBlue 150 Cool & Connect Aut.
+Extracted BMW 1 5-door 118d Steptronic
+Extracted BMW 1 5-door 120d xDrive Steptronic
+Extracted Mini Clubman Cooper SD ALL4 Steptronic
+Extracted Mercedes-Benz A 180 d
+Extracted Audi A3 Sportback 40 TDI S tronic quattro
+Extracted Audi A3 Lim 40 TDI S tronic
+Extracted VW Golf Alltrack 2.0 TDI SCR 4Motion DSG
+Extracted Ford Focus 1.5 EcoBlue 115 Cool & Connect
+Extracted Mercedes-Benz A Limousine 220 d 4Matic 8G-DCT
+Extracted Mercedes-Benz A 220 d 4Matic 8G-DCT
+Extracted Mercedes-Benz CLA 220 d 4Matic 8G-DCT
+Extracted Mercedes-Benz A Limousine 200 d 4Matic 8G-DCT
+Extracted Mercedes-Benz A 180 d 7G-DCT
+Extracted Mercedes-Benz A 200 d 4Matic 8G-DCT
+Extracted Mercedes-Benz CLA 200 d 4Matic 8G-DCT
+Extracted VW Golf 2.0 TDI SCR GTD
+Extracted Mercedes-Benz CLA Shooting Brake 200 d 4Matic 8G-DCT
+Extracted Mercedes-Benz CLA Shooting Brake 220 d 4Matic 8G-DCT
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted Skoda Octavia Combi 2.0 TDI SCR DSG 115
+Extracted Skoda Octavia Combi 2.0 TDI SCR 115
+Extracted Skoda Octavia Combi 2.0 TDI SCR 150 Ambition
+Extracted VW Passat Variant 2.0 TDI Business DSG
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted Skoda Superb Combi 2.0 TDI 150 Ambition DSG
+Extracted Skoda Superb Combi 2.0 TDI 200 Ambition 4x4 DSG
+Extracted Skoda Superb Combi 2.0 TDI 200 Scout 4x4 DSG
+Extracted Mercedes-Benz E 200 d
+Extracted Mercedes-Benz E 200 d T
+Extracted Genesis G80 Premium 2.2 RWD
+Extracted Mercedes-Benz CLS 220d
+Extracted Mercedes-Benz E 220 d T
+Extracted Mercedes-Benz E 220 d T 4Matic
+Extracted Mercedes-Benz E 220 d T 4Matic All-Terrain
+Extracted Mercedes-Benz CLS 400d 4Matic
+Extracted Mercedes-Benz E 400 d 4Matic
+Extracted Mercedes-Benz E 400 d T 4Matic
+Extracted Mercedes-Benz E 400 d T 4Matic All-Terrain
+Extracted BMW Alpina 5 Limousine D5 S Bi-Turbo Allrad
+Extracted BMW Alpina 5 Touring D5 S Bi-Turbo Allrad
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted Mercedes-Benz C 220 d Coupé 9G-Tronic
+Extracted Mercedes-Benz C 220 d Coupé 4Matic 9G-Tronic
+Extracted Mercedes-Benz C 300 d Coupé 9G-Tronic
+Extracted Mercedes-Benz C 300 d Coupé 4Matic 9G-Tronic
+Extracted Mercedes-Benz E 220 d Coupé
+Extracted Mercedes-Benz E 220 d Coupé 4Matic
+Extracted Mercedes-Benz E 220 d Cabriolet
+Extracted Mercedes-Benz E 220 d Cabriolet 4Matic
+Extracted Mercedes-Benz E 400 d Coupé 4Matic
+Extracted Mercedes-Benz E 400 d Cabriolet 4Matic
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted BMW 2 Gran Coupé 218d
+Extracted BMW 2 Gran Coupé 218d Steptronic
+Extracted BMW 2 Gran Coupé 220d Steptronic
+Extracted BMW 2 Gran Coupé 220d xDrive
+Extracted Mercedes-Benz C 220 d Cabriolet 9G-Tronic
+Extracted Mercedes-Benz C 220 d Cabriolet 4Matic 9G-Tronic
+Extracted Mercedes-Benz C 300 d Cabriolet 9G-Tronic
+---
+vehicle_type:     SUV S
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted VW T-Roc 2.0 TDI SCR Life
+Extracted Opel Mokka 1.5 Edition
+---
+vehicle_type:     SUV M
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted BMW X2 sDrive18d
+Extracted Dacia Duster dCi 115 S&S Prestige
+Extracted BMW X2 sDrive18d Steptronic
+Extracted BMW X2 xDrive18d
+Extracted BMW X2 xDrive18d Steptronic
+Extracted Dacia Duster dCi 115 S&S 4WD Expression
+Extracted BMW X1 sDrive18d
+Extracted Seat Ateca 2.0 TDI 4Drive DSG FR
+Extracted Seat Ateca 2.0 TDI 150 DSG Style
+Extracted BMW X1 xDrive18d
+Extracted BMW X1 xDrive20d Steptronic
+Extracted Peugeot 3008 BlueHDi 130 Active
+Extracted BMW X1 sDrive18d Steptronic
+Extracted BMW X1 xDrive18d Steptronic
+Extracted BMW X2 xDrive20d Steptronic
+Extracted Audi Q3 35 TDI S tronic
+Extracted Skoda Karoq 2.0 TDI 110 Ambition 4x4 DSG
+Extracted Ssangyong Korando 1.6 E-XDI Crystal 2WD
+Extracted DS Automobiles DS 4 BlueHDi 130 EAT8 Bastille
+Extracted Peugeot 3008 BlueHDi 130 Active EAT8
+Extracted Audi Q3 35 TDI
+Extracted Seat Ateca 2.0 TDI 150 4Drive DSG Style
+Extracted Ssangyong Korando 1.6 E-XDI Amber 4WD
+Extracted BMW X1 xDrive25d Steptronic
+Extracted BMW X2 xDrive25d Steptronic
+Extracted Mercedes-Benz GLA 200 d 8G-DCT
+Extracted Audi Q3 35 TDI quattro S tronic
+Extracted Audi Q3 Sportback 35 TDI quattro S tronic
+Extracted Mercedes-Benz GLA 220 d 8G-DCT
+Extracted Ssangyong Korando 1.6 E-XDI Amber 4WD auto.
+Extracted VW Tiguan 2.0 TDI 150 Life 4Motion DSG
+Extracted Mercedes-Benz GLA 200 d 4Matic 8G-DCT
+Extracted Mercedes-Benz GLA 220 d 4Matic 8G-DCT
+Extracted Audi Q3 40 TDI S tronic
+Extracted Audi Q3 Sportback 40 TDI S tronic
+Extracted VW Tiguan 2.0 TDI 200 Elegance 4Motion DSG
+Extracted Ssangyong Korando 1.6 E-XDI Amber 2WD auto.
+---
+vehicle_type:     SUV L
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted Ford Kuga 1.5 EcoBlue Cool & Connect
+Extracted Seat Tarraco 2.0 TDI CR DPF DSG
+Extracted Peugeot 5008 BlueHDi 130 Active
+Extracted Citroen C5 Aircross BlueHDi 130 S&S Shine EAT8
+Extracted Peugeot 5008 BlueHDi 130 Active Pack EAT8
+Extracted Ford Kuga 1.5 EcoBlue Cool & Connect Auto.
+Extracted Mercedes-Benz GLB 180d
+Extracted Mercedes-Benz GLB 200d
+Extracted DS Automobiles DS 7 Crossback BlueHDi 130 EAT8 Bastille
+Extracted Skoda Kodiaq 2.0 TDI 110 4x4 Ambition DSG
+Extracted Mercedes-Benz GLB 220d
+Extracted Mazda CX-5 Skyactiv-D 150 AWD Ambition
+Extracted Mazda CX-5 Skyactiv-D 184 AWD Newground
+Extracted Ford Kuga 2.0 EcoBlue Titanium X 4x4
+Extracted Mercedes-Benz GLB 200d 4MATIC
+Extracted Cadillac XT4 350D Premium Luxury
+Extracted VW Tiguan Allspace 2.0 TDI 150 Life 4Motion DSG
+Extracted Renault Koleos Blue dCi 185 4WD X-Tronic techno
+Extracted Peugeot 5008 BlueHDi 180 GT EAT8
+Extracted Mercedes-Benz GLB 220d 4MATIC
+Extracted Alfa Romeo Stelvio Business 2.2 JTDm 190 AT8
+Extracted Alfa Romeo Stelvio Veloce 2.2 JTDm 210 Q4 AT8
+Extracted Seat Tarraco 2.0 TDI 190 CR DPF
+Extracted Mazda CX-5 Skyactiv-D 150 AWD Ambition Drive
+Extracted Mazda CX-5 Skyactiv-D 184 AWD Newground Drive
+Extracted Kia Sorento 2.2 Smartstream Sorento
+Extracted Skoda Kodiaq 2.0 TDI 147 4x4 Style DSG
+Extracted VW Tiguan Allspace 2.0 TDI 200 Elegance 4Motion DSG
+Extracted Hyundai Santa Fe 2.2 CRDi Vertex 4WD Aut.
+Extracted Kia Sorento 2.2 Smartstream Auto.(5 pl.)
+Extracted Kia Sorento 2.2 Smartstream Auto. (7 pl.)
+Extracted Cadillac XT4 350D AWD Premium Luxury
+Extracted Hyundai Santa Fe 2.2 CRDi Origo 4WD Aut.
+Extracted Mercedes-Benz GLC 300 d 4Matic 9G-Tronic
+Extracted Mercedes-Benz GLC coupé 300 d 4Matic 9G-Tronic
+Extracted Mercedes-Benz GLC 400 d 4Matic 9G-Tronic
+Extracted Mercedes-Benz GLC coupé 400 d 4Matic 9G-Tronic
+Extracted BMW Alpina XD3 Allrad
+Extracted BMW Alpina XD4 Allrad
+---
+vehicle_type:     SUV XL
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted VW Touareg 3.0 V6 TDI 231 4Motion Elegance
+Extracted VW Touareg 3.0 V6 TDI 286 4Motion Elegance
+Extracted Mercedes-Benz GLE Coupé 400 d 4Matic
+Extracted Mercedes-Benz GLE Coupé 350 d 4Matic
+Extracted Genesis GV80 Premium 3.0 AWD
+Extracted Genesis GV80 Premium 3.0 AWD
+Extracted Mercedes-Benz GLS 350 d 4Matic
+Extracted Mercedes-Benz GLS 400 d 4Matic
+Extracted Mercedes-Benz G 350 d
+Extracted Mercedes-Benz G 400 d Stronger Than Time Edition
+---
+vehicle_type:     Minivan S
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted Peugeot Rifter Long BlueHDi 130 Allure Pack EAT8
+Extracted Peugeot Rifter BlueHDi 130 Allure Pack EAT8
+Extracted Ford Tourneo Connect 2.0 l EcoBlue Titanium 122
+Extracted Ford Tourneo Connect 2.0 l EcoBlue Titanium 102
+Extracted Ford Tourneo Connect 2.0 l EcoBlue Auto. Titanium 122
+Extracted Peugeot Rifter BlueHDi 100 Active Pack
+Extracted Renault Kangoo 1.5 Blue dCi 75 Edition equilibre
+Extracted Opel Combo 1.5 CDTI 102 Life Edition
+Extracted Opel Combo 1.5 CDTI 130 Life Edition
+Extracted Peugeot Rifter BlueHDi 130 Allure Pack
+Extracted Citroen Berlingo BlueHDi 100 S&S Live
+Extracted Citroen Berlingo BlueHDi 130 S&S Swiss Edition 5 Plätze
+Extracted Citroen Berlingo BlueHDi 130 S&S Feel Pack XL 7 Plätze
+Extracted Renault Kangoo 1.5 Blue dCi 95 Edition equilibre
+Extracted Opel Combo 1.5 CDTI 130 Life Edition Auto.
+Extracted Citroen Berlingo Feel Pack Blue HDi 130 5 Plätze
+Extracted Ford Tourneo Connect 1.5 l EcoBlue Trend 100
+Extracted Ford Tourneo Connect 1.5 l EcoBlue Trend 120
+Extracted Renault Kangoo Rapid BLUE dCi 115 intens
+Extracted Mercedes-Benz Citan Tourer 112 CDI
+Extracted Renault Kangoo Rapid BLUE dCi 115 techno EDC
+Extracted Ford Tourneo Connect 1.5 l EcoBlue Auto. Trend 100
+Extracted Ford Tourneo Connect 1.5 l EcoBlue Auto. Titanium 100
+Extracted Ford Tourneo Connect 1.5 l EcoBlue Auto. Titanium 120
+Extracted Ford Tourneo Connect 1.5 l EcoBlue Auto. Titanium 120
+---
+vehicle_type:     Minivan M
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted BMW 2 Active Tourer 218d
+Extracted BMW 2 Active Tourer 218d Steptronic
+Extracted BMW 2 Gran Tourer 216d
+Extracted BMW 2 Active Tourer 220d Steptronic
+Extracted BMW 2 Gran Tourer 218d
+Extracted BMW 2 Gran Tourer 216d DKG
+Extracted Dacia Lodgy Blue dCi 115 Comfort 5 pl.
+Extracted Dacia Lodgy Blue dCi 115 Comfort 7 pl.
+Extracted BMW 2 Active Tourer 218d xDrive Steptronic
+Extracted BMW 2 Active Tourer 220d xDrive Steptronic
+Extracted BMW 2 Gran Tourer 220d Steptronic
+Extracted Toyota Proace City Verso 1.5 D Combi 130 Trend Medium
+Extracted Toyota Proace City Verso 1.5 D Combi 130 Trend Long
+Extracted BMW 2 Gran Tourer 218d Steptronic
+Extracted BMW 2 Gran Tourer 218d xDrive Steptronic
+Extracted VW Caddy Kombi 2.0 TDI 55
+Extracted VW Caddy 2.0 TDI 122
+Extracted VW Caddy Kombi 2.0 TDI 75
+Extracted VW Caddy Maxi 2.0 TDI 122
+Extracted BMW 2 Gran Tourer 220d xDrive Steptronic
+Extracted Mercedes-Benz B 180 d
+Extracted VW Caddy 2.0 TDI 122 DSG
+Extracted VW Caddy Maxi 2.0 TDI 122 DSG
+Extracted VW Touran 2.0 TDI 122 Comfortline
+Extracted Mercedes-Benz B 200 d 4Matic 8G-DCT
+Extracted Mercedes-Benz B 220 d 8G-DCT
+Extracted Citroen Grand C4 S.Tourer 1.5 BlueHDi 130 Feel EAT8
+Extracted Mercedes-Benz B 180 d 7G-DCT
+Extracted VW Touran 2.0 TDI 150 Comfortline DSG
+Extracted Mercedes-Benz B 220 d 4Matic 8G-DCT
+Extracted VW Caddy 2.0 TDI 122 4Motion
+Extracted VW Caddy Maxi 2.0 TDI 122 4Motion
+Extracted Toyota Proace City Verso 1.5 D Combi 130 Trend Medium Auto.
+Extracted Toyota Proace City Verso 1.5 D Combi 130 Trend Long Auto.
+Extracted Toyota Proace 1.5 Active, Medium Panel Van
+Extracted Mercedes-Benz T 180 d
+Extracted Mercedes-Benz T 180 d 7G-DCT Style
+Extracted Citroen Jumpy SpaceTourer XS Feel BlueHDi 120
+Extracted Toyota Proace 2.0 Active, Medium Panel Van
+Extracted Opel Zafira Life 1.5 M Business Edition
+Extracted Peugeot Traveller Compact Active BlueHDi 120 S&S
+Extracted Toyota Proace Verso 2.0 Shuttle, Compact
+Extracted Toyota Proace Verso 2.0 Shuttle, Long Auto.
+Extracted Toyota Proace Verso 2.0 Shuttle, Medium
+Extracted Toyota Proace 2.0 Active, Medium Panel Van
+Extracted Toyota Proace Verso 2.0 Shuttle, Long
+Extracted Toyota Proace Verso 2.0 Shuttle, Medium Auto.
+Extracted Toyota Proace Verso 2.0 Shuttle, Medium Auto.
+Extracted Opel Zafira Life 2.0 S Edition
+Extracted Peugeot Traveller Compact Active BlueHDi 140 S&S
+Extracted Opel Zafira Life 2.0 M Business Edition
+Extracted Peugeot Traveller Standard Active BlueHDi 140 S&S EAT8
+Extracted Citroen Jumpy SpaceTourer M Feel BlueHDi 180 EAT8
+Extracted Opel Zafira Life 2.0 M Business Elegance
+Extracted Peugeot Traveller Standard Active BlueHDi 180 S&S EAT8
+Extracted Toyota Proace Verso 2.0 Combi Comfort Medium 4x4
+Extracted Toyota Proace Verso 2.0 Combi Comfort Long 4x4
+---
+vehicle_type:     Minivan L
+fuel_type:        Diesel
+fuel_consumption: None
+---
+Extracted Renault Espace dCi 160 Intens EDC Techno
+Extracted Renault Espace dCi 190 Intens EDC Techno
+Extracted Ford S-Max 2.0 EcoBlue 110 Trend
+Extracted Citroen Jumpy SpaceTourer M Feel BlueHDi 120
+Extracted Opel Vivaro Kombi M 1.5 Diesel Essentia
+Extracted VW Multivan T7 2.0 TDI Liberty DSG
+Extracted Ford S-Max 2.0 EcoBlue 110 auto. Trend
+Extracted Ford Galaxy 2.0 TDCi Trend auto. 150
+Extracted Ford Galaxy 2.0 TDCi Titanium auto. 190
+Extracted Ford S-Max 2.0 TDCi Auto. Trend
+Extracted Ford S-Max 2.0 TDCi 4x4 Auto. Trend
+Extracted Ford Galaxy 2.0 TDCi Titanium auto. 190 4x4
+Extracted Renault Trafic Grand Passenger Blue dCi 110 equilibre
+Extracted Nissan Primastar Kombi dCi 110 Acenta
+Extracted VW Multivan Trendline 2.0 TDI 110
+Extracted VW Multivan California Beach 2.0 TDI
+Extracted VW Multivan Trendline 2.0 TDI 150
+Extracted VW Multivan Trendline 2.0 TDI 150 DSG
+Extracted VW Multivan California Beach 2.0 TDI 150
+Extracted VW Multivan California Beach 2.0 TDI 150 DSG
+Extracted VW Multivan T6 Kombi 2.0 Bi-TDI
+Extracted VW Multivan T6 Kombi 2.0 Bi-TDI DSG
+Extracted VW Multivan T6 Kombi 2.0 Bi-TDI
+Extracted Renault Trafic Blue dCi 110 equilibre
+Extracted Nissan Primastar Kombi dCi 150 Acenta
+Extracted Opel Vivaro Kombi M 2.0 Diesel Enjoy
+Extracted Renault Trafic Blue dCi 150 techno
+Extracted Renault Trafic Grand Passenger Blue dCi 150 techno
+Extracted Renault Trafic Blue dCi 150 EDC evolution
+Extracted Renault Trafic Grand Passenger Blue dCi 150 EDC evolution
+Extracted Renault Trafic Passenger Blue dCi 170 EDC techno
+Extracted Renault Trafic Grand Passenger Blue dCi 170 EDC techno
+Extracted Nissan Primastar Kombi dCi 150 Acenta DCT Comfort
+Extracted Nissan Primastar Kombi dCi 170 Acenta DCT Comfort
+Extracted Hyundai Staria 2.2 CRDi
+Extracted VW Multivan Trendline 2.0 TDI 150 4Motion
+Extracted VW Multivan California Beach 2.0 TDI 150 4M
+Extracted VW Multivan Family 2.0 Bi-TDI DSG
+Extracted VW Multivan T6 Kombi 2.0 Bi-TDI
+Extracted VW Multivan California Beach 2.0 Bi-TDI DSG
+Extracted VW Multivan Trendline 2.0 TDI 150 4Motion DSG
+Extracted VW Multivan California Beach 2.0 TDI 150 4Motion DSG
+Extracted VW Multivan Kombi 2.0 Bi-TDI 4Motion DSG
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted FIAT 500 1.0 N3 Hybrid Cult GSE
+Extracted FIAT Panda 1.0 Hybrid Cool
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Toyota Yaris 1.5 Hybrid Active e-Multidrive
+Extracted Toyota Yaris 1.5 Hybrid Comfort e-Multidrive
+Extracted Mazda 2 Skyactiv-G 90 Drive Ambition
+Extracted Toyota Yaris Cross 1.5 Hybrid e-Multidrive Active
+Extracted Toyota Yaris Cross 1.5 Hybrid e-Multidrive Elegant
+Extracted Honda Jazz 1.5i-MMD Comfort
+Extracted Honda Jazz 1.5i-MMD Elegance
+Extracted Honda Jazz 1.5i-MMD Executive
+Extracted Suzuki Swift 1.2 Compact + Hybrid
+Extracted Honda Jazz 1.5i-MMD Crosstar Executive
+Extracted Renault Clio E-Tech 140 Intens
+Extracted Suzuki Swift 1.2 Compact + Hybrid Auto.
+Extracted Suzuki Swift 1.2 Compact+ Hybrid Allgrip 4x4
+Extracted Hyundai i20 1.0 T-GDi 120 N line
+Extracted Hyundai i20 1.0 T-GDi 120 Amplia DCT
+Extracted Suzuki Swift Sport 1.4 Turbo Compact Top
+Extracted Kia Rio 1.0 T-GDi Trend DCT Mild-Hybrid
+Extracted Ford Fiesta 1.0 EcoBoost 155 Hybrid St-Line
+Extracted Ford Fiesta 1.0 EcoBoost 155 Hybrid Titanium x
+Extracted Ford Fiesta 1.0 EcoBoost 125 Hybrid Cool & Connect 3 doors
+Extracted Ford Fiesta 1.0 EcoBoost 125 Hybrid Cool & Connect 5 doors
+Extracted Ford Fiesta 1.0 EcoBoost 125 Hybrid Cool & Connect 3 doors auto.
+Extracted Ford Fiesta 1.0 EcoBoost 125 Hybrid Cool & Connect 5 doors auto.
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Toyota Prius 1.8 Comfort
+Extracted Toyota Prius 1.8 Premium
+Extracted Toyota Prius 1.8 Comfort AWD-i
+Extracted Toyota Prius 1.8 Premium AWD-i
+Extracted Toyota Corolla 1.8 HSD Active e-CVT
+Extracted Toyota Corolla TouringSports 1.8 HSD Active e-CVT
+Extracted Kia Niro 1.6 T-GDi DCT HEV Power
+Extracted Honda Civic 2.0 e:HEV Elegance
+Extracted Toyota Corolla Cross 2.0 Comfort FWD
+Extracted Mazda 3 Sedan Skyactiv-X 186 FWD Ambition Plus
+Extracted Mazda 3 Skyactiv-X 186 FWD Ambition
+Extracted Toyota Corolla 2.0 HSD Trend e-CVT
+Extracted Toyota Corolla TouringSports 2.0 HSD Trend e-CVT
+Extracted Toyota Corolla Cross 2.0 Comfort AWD
+Extracted Hyundai Ioniq Hybrid 1.6 GDi Origo DCT 2WD
+Extracted Mazda 3 Skyactiv-G 122 Ambition
+Extracted Mazda 3 Skyactiv-G 150 Ambition
+Extracted VW Golf 1.0 eTSI OPF mHEV Life
+Extracted VW Golf Variant 1.0 eTSI ACT OPF Life DSG
+Extracted Seat Leon 1.0 eTSI Style
+Extracted VW Golf 1.5 e TSI OPF mHEV Life
+Extracted VW Golf Variant 1.5 eTSI mHEV OPF 130 DSG Life
+Extracted Seat Leon 1.5 eTSI Style 150 DSG
+Extracted VW Golf 1.5 e TSI OPF mHEV Style
+Extracted Ford Focus 1.0 EcoBoost Hybrid 155 Cool & Connect
+Extracted Kia Ceed 1.5 T-GDi DCT Mild-Hybrid Power
+Extracted Kia Ceed SW 1.5 T-GDi DCT Mild-Hybrid Power
+Extracted Kia ProCeed 1.5 T-GDi Mild-Hybrid GT-line
+Extracted Mazda 3 Sedan Skyactiv-X 180 FWD Revolution Drive
+Extracted Mazda 3 Skyactiv-X 186 AWD Ambition Plus
+Extracted Kia Ceed 1.0 T-GDi DCT Mild-Hybrid Power
+Extracted Kia Ceed SW 1.0 T-GDi DCT Mild-Hybrid Power
+Extracted Mazda 3 Skyactiv-X 186 FWD Ambition Drive
+Extracted Hyundai i30 1.0 T-GDi Origo
+Extracted Hyundai i30 Wagon 1.0 T-GDi Origo
+Extracted Mazda 3 Skyactiv-G 150 Ambition Plus Drive
+Extracted Ford Focus 1.0 EcoBoost Hybrid 125 Cool & Connect
+Extracted Hyundai i30 1.0 T-GDi Origo auto.
+Extracted Hyundai i30 Wagon 1.0 T-GDi Origo auto.
+Extracted Hyundai i30 1.5 T-GDi Origo auto.
+Extracted Hyundai i30 1.5 T-GDi Amplia auto.
+Extracted Hyundai i30 Wagon 1.5 T-GDi Origo auto.
+Extracted Ford Focus 1.0 EcoBoost Hybrid 155 Titanium Aut.
+Extracted Mazda 3 Skyactiv-X 186 AWD Ambition Plus Drive
+Extracted Hyundai i30 1.5 T-GDi Origo
+Extracted Hyundai i30 1.5 T-GDi Amplia
+Extracted Hyundai i30 Wagon 1.5 T-GDi Origo
+Extracted Ford Focus 1.0 EcoBoost Hybrid 125 Cool & Connect Aut.
+Extracted VW Golf Variant 1.5 eTSI OPF 150 DSG Style
+Extracted Subaru Impreza 2.0i e-Boxer Swiss Plus Lineartronic
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Suzuki Swace Compact +
+Extracted Toyota Camry 2.5 HSD Comfort e-CVT
+Extracted Skoda Octavia Combi 1.0 TSI mHEV
+Extracted Seat Leon Sportstourer 1.0 eTSI Style
+Extracted Skoda Octavia Combi 1.5 eTSI mHEV Ambition
+Extracted Seat Leon Sportstourer 1.5 eTSI Style 150 DSG
+Extracted Volvo V60 B3 Mild Hybrid Geartronic Momentum Light
+Extracted Audi A4 35 TFSI S tronic
+Extracted Volvo V60 B4 Mild Hybrid Geartronic Momentum
+Extracted Audi A4 40 TFSI quattro S tronic
+Extracted Audi A4 Avant 35 TFSI S Tronic
+Extracted Audi A4 Avant 40 TFSI quattro S tronic
+Extracted Audi A5 Sportback 40 TFSI S tronic quattro
+Extracted Volvo S60 B4 Mild Hybrid Geartronic Inscription
+Extracted Volvo V60 B5 Mild Hybrid Geartronic Momentum
+Extracted Volvo V60 B5 AWD Mild Hybrid Geartronic Momentum
+Extracted Mercedes-Benz C 180 9G-Tronic
+Extracted Mercedes-Benz C 200 9G-Tronic
+Extracted Mercedes-Benz C 200 T 9G-Tronic
+Extracted Mercedes-Benz C 200 T 9G-Tronic
+Extracted Volvo S60 B5 AWD Mild Hybrid Geartronic Inscription
+Extracted Audi A4 45 TFSI quattro S Tronic
+Extracted Audi A5 Sportback 45 TFSI quattro S tronic
+Extracted BMW 3 Limousine M340i xDrive Steptronic
+Extracted Mercedes-Benz C 300 9G-Tronic
+Extracted BMW 3 Touring M340i xDrive Steptronic
+Extracted Mercedes-Benz C 200 4Matic 9G-Tronic
+Extracted Audi A4 Avant 45 TFSI quattro S Tronic
+Extracted Volvo V60 B6 AWD Mild Hybrid Geartronic Momentum
+Extracted Mercedes-Benz C 300 4Matic 9G-Tronic
+Extracted Mercedes-Benz C 43 AMG T 4Matic TCT 9G
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted BMW 5 Limousine 520i Steptronic
+Extracted BMW 5 Touring 520i Steptronic
+Extracted BMW 5 Limousine 530i xDrive Steptronic
+Extracted BMW 5 Touring 530i xDrive Steptronic
+Extracted Volvo V90 B4 Mild Hybrid Geartronic Momentum
+Extracted Volvo V90 B5 Mild Hybrid Geartronic Inscription
+Extracted BMW 5 Touring 540i xDrive Steptronic
+Extracted Audi A6 45 TFSI S tronic
+Extracted Audi A6 Avant 45 TFSI S tronic
+Extracted Audi A6 45 TFSI quattro S tronic
+Extracted Audi A6 Avant 45 TFSI quattro S tronic
+Extracted Audi A7 Sportback 45 TFSI quattro S tronic
+Extracted BMW 5 Limousine 540i xDrive Steptronic
+Extracted BMW 6 Gran Turismo 640i xDrive
+Extracted Volvo V90 Cross Country B5 AWD Mild Hybrid Geartronic
+Extracted Volvo S90 B6 AWD Mild Hybrid Geartronic Inscription
+Extracted Volvo V90 B6 AWD Mild Hybrid Geartronic Inscription
+Extracted Audi A6 55 TFSI quattro S tronic
+Extracted Audi A6 Avant 55 TFSI quattro S tronic
+Extracted Audi A7 Sportback 55 TFSI quattro S tronic
+Extracted Volvo V90 Cross Country B6 AWD Mild Hybrid Geartronic
+Extracted Mercedes-Benz CLS 350
+Extracted Mercedes-Benz E 200
+Extracted Mercedes-Benz E 200 4Matic
+Extracted Mercedes-Benz E 300
+Extracted Mercedes-Benz E 200 T
+Extracted Mercedes-Benz E 200 T 4Matic
+Extracted Mercedes-Benz E 300 T
+Extracted Mercedes-Benz E 200 T 4Matic All-Terrain
+Extracted Mercedes-Benz E 450 4Matic
+Extracted Maserati Ghibli GT Hybrid
+Extracted Mercedes-Benz CLS 450 4Matic
+Extracted Mercedes-Benz E 450 T 4Matic
+Extracted Mercedes-Benz E 450 T 4Matic All-Terrain
+Extracted Mercedes-Benz CLS AMG 53 4Matic+
+Extracted Mercedes-Benz E 53 AMG 4Matic+
+Extracted Mercedes-Benz E 53 T AMG T 4Matic
+Extracted Mercedes-Benz E 53 T AMG 4Matic
+Extracted Audi RS6 Avant TFSI quattro tiptronic
+Extracted Audi RS7 Sportback 4.0 TFSI quattro tiptronic
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Mercedes-Benz S 450 4Matic
+Extracted Mercedes-Benz S 500 4Matic
+Extracted Mercedes-Benz S 450
+Extracted Mercedes-Benz S Lang 450
+Extracted Lexus LS 500h AWD impression
+Extracted Mercedes-Benz S Lang 450 4Matic
+Extracted Mercedes-Benz S Lang 500 4Matic
+Extracted Mercedes-Benz S 580 4Matic
+Extracted Mercedes-Benz S Maybach 580 4Matic
+Extracted Audi A8 60 TFSI quattro
+Extracted Audi A8 L 60 TFSI quattro
+Extracted Mercedes-Benz S Lang 580 4Matic
+Extracted Audi S8 TFSI quattro tiptronic
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Lexus LC 500h excellence
+Extracted BMW 4 Coupé M440i xDrive
+Extracted Mercedes-Benz E 200 Coupé
+Extracted Mercedes-Benz E 200 Coupé 4Matic
+Extracted Mercedes-Benz E 300 Coupé
+Extracted Mercedes-Benz E 350 Coupé
+Extracted Mercedes-Benz E 450 Coupé 4Matic
+Extracted Mercedes-Benz E 53 AMG Coupé 4Matic
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted FIAT 500 1.0 N3 Hybrid Cult BSG
+Extracted FIAT 500C 1.0 N3 Hybrid Cult Cabrio GSE
+Extracted BMW 4 Cabrio M440i xDrive
+Extracted Audi A5 Cabriolet 45 TFSI quattro S tronic
+Extracted Mercedes-Benz E 200 Cabriolet
+Extracted Mercedes-Benz E 200 Cabriolet 4Matic
+Extracted Mercedes-Benz E 300 Cabriolet
+Extracted Mercedes-Benz E 350 Cabriolet
+Extracted Mercedes-Benz AMG SL Roadster 43
+Extracted Mercedes-Benz E 450 Cabriolet 4Matic
+Extracted Mercedes-Benz E 53 AMG Cabriolet 4Matic
+---
+vehicle_type:     SUV S
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Suzuki Ignis 1.2 Compact + Hybrid
+Extracted Nissan Juke N-Connecta 1.6 Hybrid
+Extracted Suzuki Ignis 1.2 Compact + Hybrid 4x4
+Extracted Hyundai Kona 1.6 T-GDi Origo 4WD DCT
+Extracted Suzuki Ignis 1.2 Compact + Hybrid CVT
+Extracted Hyundai Bayon 1.0 T-Gdi 48V MH Amplia DCT
+Extracted Hyundai Bayon 1.0 T-Gdi 48V MH Amplia
+Extracted Kia Stonic 1.0 T-GDi Mild-Hybrid Style
+Extracted Kia Stonic 1.0 T-GDi DCT Mild-Hybrid Style
+Extracted Suzuki Vitara 1.4 Turbo Compact + Hybrid ALLGRIP
+Extracted Suzuki Vitara 1.5 Dualjet Hybrid
+Extracted Ford Puma 1.0 EcoBoost Hybrid 155 Titanium
+Extracted Jeep Renegade 1.5 MHEV DSG Limited
+Extracted Renault Captur TCe 160 Intens
+Extracted Ford Puma 1.0 EcoBoost Hybrid 155 Titanium auto.
+Extracted Renault Captur TCe 140 Intens
+Extracted Renault Captur TCe 140 EDC PF Intens
+Extracted FIAT 500X 1.5 Cross Look Hybrid DCT
+Extracted FIAT 500X 1.5 Urban Look Club Hybrid DCT
+Extracted Suzuki Vitara 1.4 Turbo Compact + Hybrid ALLGRIP Auto.
+---
+vehicle_type:     SUV M
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Toyota C-HR 1.8 HSD Comfort e-Multidrive
+Extracted Toyota C-HR 1.8 HSD Trend e-Multidrive
+Extracted Toyota C-HR 1.8 HSD Premium e-Multidrive
+Extracted Toyota C-HR 2.0 Trend e-Multidrive
+Extracted Toyota C-HR 2.0 GR Sport e-Multidrive
+Extracted Toyota C-HR 2.0 Premium e-Multidrive
+Extracted Lexus UX 250h FWD Impression
+Extracted Honda HR-V Hybrid e:HEV Elegance CVT
+Extracted Mazda CX-30 Skyactiv-X 186 FWD Ambition
+Extracted Nissan Qashqai 1.5 e-Power
+Extracted Lexus UX 250h AWD Business
+Extracted Mazda CX-30 Skyactiv-G 122 FWD Ambition
+Extracted Mazda CX-30 Skyactiv-G 150 FWD Ambition
+Extracted Mazda CX-30 Skyactiv-G 186 AWD Ambition Plus
+Extracted Mazda CX-30 Skyactiv-X 186 AWD Ambition Plus
+Extracted Suzuki SX4 S-Cross 1.4 Turbo Compact+ Hybrid 4WD
+Extracted Suzuki SX4 S-Cross 1.5 Turbo Compact+ Hybrid 4WD Auto
+Extracted Mazda CX-30 Skyactiv-X 186 FWD Ambition Plus Drive
+Extracted Jeep Compass 1.5l Turbo E-Hybrid Night Eagle 2WD
+Extracted Kia XCeed 1.5 T-GDi DCT Power Mild-Hybrid
+Extracted Mazda CX-30 Skyactiv-G 150 FWD Ambition Plus Drive
+Extracted Mazda CX-30 Skyactiv-G 150 AWD Ambition Plus
+Extracted Suzuki SX4 S-Cross 1.4 Turbo Compact+ Hybrid 4WD Auto
+Extracted Mazda CX-30 Skyactiv-G 186 AWD Ambition Plus Drive
+Extracted Mazda CX-30 Skyactiv-X 186 AWD Ambition Plus Drive
+Extracted Kia Sportage 1.6 T-GDi 4x4 HEV Power Edition
+Extracted Kia Sportage 1.6 T-GDi MHEV DCT Sportage
+Extracted Nissan Qashqai 1.3 DIG-T Acenta DCT 160
+Extracted Nissan Qashqai 1.3 DIG-T Visia 140
+Extracted Kia Sportage 1.6 T-GDi MHEV Sportage
+Extracted Mazda CX-30 Skyactiv-G 150 AWD Ambition Plus Drive
+Extracted Kia Sportage 1.6 T-GDi MHEV DCT 4x4 Power Edition
+Extracted Kia Sportage 1.6 T-GDi 4x4 7-DCT Power Edition
+Extracted Volvo XC40 B3 Mild Hybrid Geartronic Essential
+Extracted Volvo XC40 B4 Mild Hybrid Geartronic Plus
+Extracted Kia Sportage 1.6 T-GDi MHEV 4x4 Power Edition
+Extracted Nissan Qashqai 1.3 DIG-T N-Connecta 4x4
+Extracted Volvo XC40 B4 AWD Mild Hybrid Geartronic Core
+Extracted Subaru XV 2.0i e-Boxer Swiss Lineartronic
+Extracted Jaguar E-Pace P160 Auto.
+Extracted Land Rover RR Evoque P160 Aut.
+Extracted Volvo XC40 B5 AWD Mild Hybrid Geartronic Plus
+Extracted Jaguar E-Pace P300 AWD Auto.
+Extracted Land Rover RR Evoque P300 Aut.
+Extracted Jaguar E-Pace P200 AWD Auto.
+Extracted Jaguar E-Pace P250 AWD Auto.
+---
+vehicle_type:     SUV L
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Renault Arkana E-Tech 145 techno
+Extracted Toyota RAV4 2.5 Active e-Multidrive 2WD
+Extracted Toyota RAV4 2.5 Comfort e-Multidrive 4WD
+Extracted Lexus NX 350h FWD Impression
+Extracted Renault Arkana TCe 140 EDC Zen
+Extracted Renault Arkana TCe 160 EDC Intens
+Extracted Alfa Romeo Tonale Super 1.5 130 MHEV
+Extracted Ford Kuga 2.5 Duratec FHEV Cool & Connect 4x4
+Extracted Ford Kuga 2.5 Duratec FHEV Cool & Connect
+Extracted Alfa Romeo Tonale Ti 1.5 160 MHEV
+Extracted Renault Austral E-Tech Hybrid 130 X-Tronic
+---
+vehicle_type:     SUV XL
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Toyota Highlander 2.5 HSD Comfort e-CVT
+Extracted Lexus RXL 450hL Comfort
+Extracted Maserati Grecale GT
+Extracted Maserati Grecale Modena
+Extracted Volvo XC90 B5 AWD Geartronic Core
+Extracted Volvo XC90 B6 AWD Geartronic Plus
+Extracted BMW X5 xDrive40i Steptronic
+Extracted Land Rover RR Sport 3.0 MHEV P400 Auto. HSE DS
+Extracted Land Rover RR Velar P400
+Extracted Maserati Levante GT Hybrid
+Extracted Audi Q7 55 TFSI quattro tiptronic
+Extracted Audi Q8 55 TFSI quattro tiptronic
+Extracted Mercedes-Benz GLE Coupé 63 AMG 4Matic
+Extracted Mercedes-Benz GLE Coupé 63 S AMG 4Matic
+Extracted Mercedes-Benz GLS 63 AMG 4Matic
+Extracted Audi RS Q8 4.0 TFSI quattro
+Extracted Aston Martin Valkyrie V12 Coupé
+---
+vehicle_type:     Minivan S
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan M
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted BMW 2 Active Tourer 220i DKG
+Extracted BMW 2 Active Tourer 223i DKG
+---
+vehicle_type:     Minivan L
+fuel_type:        Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Ford Galaxy 2.5 FHEV Titanium
+Extracted Ford S-Max 2.5 Duratec (FHEV) Trend auto.
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted Kia Ceed 1.6 CRDi Power Mild-Hybrid
+Extracted Kia Ceed SW 1.6 CRDi Power 2020
+Extracted Kia Ceed 1.6 CRDi Power DCT Mild-Hybrid
+Extracted Kia Ceed SW 1.6 CRDi Power 2020 DCT
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted BMW 3 Touring 318d Steptronic
+Extracted BMW 3 Limousine 318d Steptronic
+Extracted BMW 3 Limousine 320d Steptronic
+Extracted BMW 3 Touring 320d Steptronic
+Extracted BMW 4 Gran Coupé 420d Steptronic
+Extracted BMW 3 Limousine 320d xDrive Steptronic
+Extracted BMW 3 Limousine 330d xDrive Steptronic
+Extracted BMW 3 Touring 330d xDrive Steptronic
+Extracted BMW 4 Gran Coupé 430d x Drive
+Extracted BMW 3 Touring 320d xDrive Steptronic
+Extracted BMW 4 Gran Coupé 420d xDrive Steptronic
+Extracted Jaguar XE D200 Auto.
+Extracted Audi A4 40 TDI quattro S tronic
+Extracted Audi A4 Avant 40 TDI quattro S tronic
+Extracted Audi A4 Allroad 40 TDI quattro S tronic
+Extracted Audi A5 Sportback 40 TDI quattro S-tronic
+Extracted BMW 3 Limousine M340d xDrive Steptronic
+Extracted Mercedes-Benz C 220 d 4Matic 9G-Tronic
+Extracted Audi A4 35 TDI S Tronic
+Extracted BMW 3 Touring M340d xDrive Steptronic
+Extracted Mercedes-Benz C 300 d 9G-Tronic
+Extracted Mercedes-Benz C 200 d T 9G-Tronic
+Extracted Mercedes-Benz C 300 d T 9G-Tronic
+Extracted Mercedes-Benz C 200 d T 9G-Tronic
+Extracted Mercedes-Benz C 300 d T 9G-Tronic
+Extracted Volvo V60 B4 Mild Hybrid Geartronic Momentum Diesel
+Extracted Jaguar XE D200 AWD Auto.
+Extracted Audi A4 50 TDI quattro tiptronic
+Extracted Audi A4 Avant 50 TDI tiptronic
+Extracted Audi A4 Allroad 50 TDI quattro tiptronic
+Extracted Audi A5 Sportback 50 TDI quattro tiptronic
+Extracted Audi S4 Avant quattro tiptronic
+Extracted Audi S5 Sportback quattro tiptronic
+Extracted Audi S4 quattro tiptronic
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted BMW 5 Limousine 520d Steptronic
+Extracted BMW 5 Touring 520d Steptronic
+Extracted BMW 5 Touring 520d xDrive Steptronic
+Extracted Mercedes-Benz E 220 d
+Extracted BMW 5 Limousine 520d xDrive Steptronic
+Extracted BMW 5 Limousine 530d xDrive Steptronic
+Extracted BMW 5 Limousine 540d xDrive Steptronic
+Extracted Mercedes-Benz E 220 d 4Matic
+Extracted BMW 5 Touring 530d xDrive Steptronic
+Extracted Audi A6 40 TDI S tronic
+Extracted Audi A6 40 TDI quattro S tronic
+Extracted Audi A6 Avant 40 TDI S tronic
+Extracted Audi A6 Avant 40 TDI quattro S tronic
+Extracted Audi A7 Sportback 40 TDI quattro S tronic
+Extracted BMW 5 Touring 540d xDrive Steptronic
+Extracted BMW 6 Gran Turismo 630d xDrive
+Extracted Mercedes-Benz E 300 d 4Matic
+Extracted Volvo V90 B5 AWD Geartronic Inscription Mild Hybrid Diesel Plus
+Extracted Audi A6 45 TDI quattro tiptronic
+Extracted Audi A6 50 TDI quattro tiptronic
+Extracted Audi A6 Avant 45 TDI quattro tiptronic
+Extracted Audi A6 Avant 50 TDI quattro tiptronic
+Extracted Audi A6 Allroad 50 TDI tiptronic quattro
+Extracted Audi A7 Sportback 45 TDI quattro tiptronic
+Extracted Audi A7 Sportback 50 TDI quattro tiptronic
+Extracted BMW 6 Gran Turismo 640d xDrive
+Extracted Volvo V90 Cross Country B4 AWD Mild Hybrid Geartronic Diesel
+Extracted Volvo V90 Cross Country B5 AWD Geartronic Mild Hyb. Diesel Core
+Extracted Mercedes-Benz CLS 300d 4Matic
+Extracted Mercedes-Benz E 300 d 4Matic
+Extracted Mercedes-Benz E 300 d T 4Matic 9G-Tronic
+Extracted Audi S6 quattro tiptronic
+Extracted Audi S6 Avant quattro tiptronic
+Extracted BMW Alpina 3 Limousine D3 S Bi-Turbo Allrad
+Extracted BMW Alpina 3 Touring D3 S Bi-Turbo Allrad
+Extracted Audi S7 Sportback quattro tiptronic
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted BMW 7 Limousine 730d xDrive
+Extracted BMW 7 Limousine 730Ld xDrive
+Extracted BMW 7 Limousine 740d xDrive
+Extracted BMW 7 Limousine 740Ld xDrive
+Extracted BMW 8 Coupé 840d xDrive
+Extracted BMW 8 Cabriolet 840d xDrive
+Extracted BMW 8 Gran Coupé 840d xDrive
+Extracted Audi A8 50 TDI quattro tiptronic
+Extracted Audi A8 L 50 TDI quattro tiptronic
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted BMW 2 Coupé 220d Steptronic
+Extracted BMW 4 Coupé 420d
+Extracted BMW 4 Coupé 420d x Drive
+Extracted BMW 4 Coupé 430d x Drive
+Extracted BMW 4 Coupé M440d xDrive
+Extracted Mercedes-Benz E 300 d Coupé 4Matic
+Extracted Mercedes-Benz E 300 d Cabriolet 4Matic
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted BMW 4 Cabrio 420d
+Extracted BMW 4 Cabrio 430d
+Extracted BMW 4 Cabrio M440d xDrive
+---
+vehicle_type:     SUV S
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV M
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted Hyundai Tucson 1.6 CRDi 136 Amplia 2WD DTC
+Extracted Kia XCeed 1.6 CRDI Power DCT
+Extracted Kia Sportage 1.6 CRDi 4x4 7-DCT Mild-Hybrid Power Edition
+Extracted Kia Sportage 1.6 CRDi 4x4 Black Edition Mild-Hybrid
+Extracted Jaguar E-Pace D165 AWD Auto.
+Extracted Jaguar E-Pace D200 AWD Auto.
+---
+vehicle_type:     SUV L
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted Ford Kuga 2.0 EcoBlue Hybrid Titanium X
+Extracted BMW X4 xDrive20d Steptronic
+Extracted BMW X3 xDrive20d
+Extracted Audi Q5 40 TDI quattro S tronic
+Extracted Audi Q5 SB 40 TDI quattro S tronic
+Extracted BMW X3 xDrive30d
+Extracted BMW X3 M40d
+Extracted BMW X4 xDrive30d Steptronic
+Extracted BMW X4 M40d Steptronic
+Extracted Jaguar F-Pace D165 AWD Auto. MHEV
+Extracted Jaguar F-Pace D200 AWD Auto. MHEV
+Extracted Volvo XC60 XC60 B4 AWD Mild Hybrid Geartronic Diesel Core
+Extracted Volvo XC60 XC60 B5 AWD Mild Hybrid Geartronic Diesel Plus
+Extracted Land Rover Discovery Sport 2.0 D165 AWD Auto.
+Extracted Land Rover Discovery Sport 2.0 D200 AWD Auto.
+Extracted Jaguar F-Pace D300 AWD Auto. MHEV
+Extracted Audi SQ5 TDI quattro tiptronic
+Extracted Audi SQ5 SB TDI quattro tiptronic
+Extracted Audi Q5 SB 50 TDI quattro tiptronic
+Extracted Audi Q5 50 TDI quattro tiptronic
+Extracted Land Rover Defender 130 D250 SE AWD
+Extracted Land Rover Defender 130 D300 SE AWD
+---
+vehicle_type:     SUV XL
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted BMW X5 xDrive30d Steptronic
+Extracted BMW X6 xDrive30d Steptronic
+Extracted BMW X6 xDrive40d Steptronic
+Extracted Volvo XC90 B5 AWD Geartronic Diesel Core
+Extracted Land Rover RR Velar D300
+Extracted Audi Q7 45 TDI quattro tiptronic
+Extracted Audi Q7 50 TDI quattro tiptronic
+Extracted Land Rover RR Sport 3.0 MHEV D250 Auto. SE
+Extracted Land Rover RR Sport 3.0 MHEV D300 Auto. SE
+Extracted Land Rover RR Sport 3.0 MHEV D350 Auto. HSE
+Extracted Audi Q8 45 TDI quattro tiptronic
+Extracted Audi Q8 50 TDI quattro tiptronic
+---
+vehicle_type:     Minivan S
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan M
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan L
+fuel_type:        Hybrid Diesel
+fuel_consumption: None
+---
+Extracted Ford Transit Custom 320 L1 2.0 EcoBlue Basis
+Extracted Ford Tourneo Custom Bus L1 320 2.0 TDCi HEV 185 Trend
+Extracted Ford Tourneo Custom Bus L1 320 2.0 TDCi HEV 130 Trend
+Extracted Ford Tourneo Custom Bus L1 320 2.0 TDCi HEV 150 Trend
+Extracted Ford Transit Custom 320 L1 2.0 EcoBlue Basis
+Extracted Ford Transit Custom 320 L1 2.0 EcoBlue Trend
+Extracted Ford Transit 330 L2 2.0 EcoBlue Trend
+Extracted Ford Transit 350 L2 2.0 EcoBlue Basis
+Extracted Ford Transit 350 L3 2.0 EcoBlue Basis
+Extracted Ford Transit 330 L2 2.0 EcoBlue Trend
+Extracted Ford Transit 350 L2 2.0 EcoBlue Trend
+Extracted Ford Transit 350 L3 2.0 EcoBlue Trend
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+Extracted FIAT Panda 0.9 TwinAir CNG City Life
+Extracted FIAT Panda 0.9 TwinAir NP City Cross
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+Extracted Seat Ibiza 1.0 TGI Reference
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+Extracted Skoda Scala 1.0 TGI G-Tec
+Extracted Audi A3 Sportback 30 g-tron S tronic
+Extracted Seat Leon 1.5 TGI Style DSG
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+Extracted Skoda Octavia Combi 1.5 TSI G-Tec
+Extracted Seat Leon Sportstourer 1.5 TGI Style DSG
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV S
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+Extracted Skoda Kamiq 1.0 TGI Style
+Extracted Seat Arona 1.0 TGI Style
+Extracted Seat Arona 1.0 TGI FR
+---
+vehicle_type:     SUV M
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV L
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV XL
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan S
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan M
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan L
+fuel_type:        Erdgas (CNG)
+fuel_consumption: None
+---
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted FIAT 500e Action 70kW
+Extracted FIAT 500e Icon
+Extracted FIAT 500e Red
+Extracted FIAT 500e La Prima
+Extracted FIAT 500e Cabrio Icon
+Extracted FIAT 500e Cabrio Red
+Extracted FIAT 500e Cabrio La Prima
+Extracted VW Up e-up!
+Extracted Renault Twingo Electric Life
+Extracted Renault Twingo Electric Zen
+Extracted Renault Twingo Electric Intens
+Extracted Renault Twingo Electric Vibes
+Extracted Renault Twingo E-TECH ELECTRIC Equilibre R80
+Extracted Renault Twingo E-TECH ELECTRIC Techno R80
+Extracted Renault Twingo E-TECH ELECTRIC Urban Night R80
+Extracted Smart forfour EQ
+Extracted Smart fortwo EQ
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted BMW i3 -
+Extracted BMW i3 s
+Extracted Honda e -
+Extracted Honda e Advance
+Extracted Opel Corsa-e e-Edition
+Extracted Opel Corsa-e e-Elegance
+Extracted Renault Zoe R110 Zen (excl. battery)
+Extracted Renault Zoe R110 Life (incl. battery)
+Extracted Renault Zoe R110 Zen (incl. battery)
+Extracted Renault Zoe R135 Zen (excl. battery)
+Extracted Renault Zoe R135 Intens (excl. battery)
+Extracted Renault Zoe R135 Riviera (excl. battery)
+Extracted Renault Zoe R135 Zen (incl. battery)
+Extracted Renault Zoe R135 Intens (incl. battery)
+Extracted Renault Zoe R135 Riviera (incl. battery)
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Citroen C4 ë-C4 Live Pack
+Extracted Citroen C4 ë-C4 Swiss Edition
+Extracted Citroen C4 ë-C4 Shine
+Extracted Citroen C4 ë-C4 Shine Pack
+Extracted Citroen C4 ë-C4 X
+Extracted Renault Megane E-Tech EV60 220 PS equilibre
+Extracted Renault Megane E-Tech EV60 220 PS techno
+Extracted Renault Megane E-Tech EV60 220 PS iconic
+Extracted Renault Megane E-Tech EV40 130 PS equilibre
+Extracted Renault Megane E-Tech EV40 130 PS techno
+Extracted Renault Megane E-Tech EV40 130 PS iconic
+Extracted Nissan Leaf Visia
+Extracted Nissan Leaf Acenta
+Extracted Nissan Leaf N-Connecta
+Extracted Nissan Ariya Diamond 63 kWh
+Extracted Nissan Ariya Diamond 87 kWh
+Extracted VW ID.3 Pro S Life+
+Extracted Nissan Leaf e+ Acenta
+Extracted Nissan Leaf e+ N-Connecta
+Extracted Nissan Leaf e+ Tekna
+Extracted Cupra Born 58 kWh 204 PS
+Extracted Cupra Born 77 kWh 231 PS e-Boost
+Extracted Cupra Born 58 kWh 231 PS e-Boost
+Extracted VW ID.3 Pro Performance Life+
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Tesla Model 3 ­
+Extracted Tesla Model 3 Long Range
+Extracted Tesla Model 3 Performance
+Extracted Polestar 2 Long range Single motor
+Extracted BMW i4 eDrive 40
+Extracted Polestar 2 Standard range Single motor
+Extracted Polestar 2 Long range Single motor
+Extracted Polestar 2 Long range Dual motor
+Extracted Polestar 2 Long range Dual motor
+Extracted BMW i4 M50
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Tesla Model S Long Range
+Extracted Audi e-tron GT quattro
+Extracted Audi e-tron GT RS
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Mercedes-Benz EQS 450+
+Extracted Mercedes-Benz EQS 350
+Extracted Mercedes-Benz EQS 580 4Matic
+Extracted Mercedes-Benz EQS 450 4Matic
+Extracted Mercedes-Benz EQS 500 4Matic
+Extracted Mercedes-Benz EQS 53 AMG 4Matic
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Porsche Taycan ST
+Extracted Porsche Taycan Turbo
+Extracted Porsche Taycan Turbo ST
+Extracted Porsche Taycan Turbo Cross Turismo
+Extracted Porsche Taycan Turbo S
+Extracted Porsche Taycan Turbo S ST
+Extracted Porsche Taycan Turbo S Cross Turismo
+Extracted Porsche Taycan GTS
+Extracted Porsche Taycan GTS ST
+Extracted Porsche Taycan ­
+Extracted Porsche Taycan 4 Cross Turismo
+Extracted Porsche Taycan 4S
+Extracted Porsche Taycan 4S ST
+Extracted Porsche Taycan 4S Cross Turismo
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted FIAT 500e 3+1 Icon
+Extracted FIAT 500e 3+1 La Prima
+Extracted Smart fortwo cabrio EQ
+---
+vehicle_type:     SUV S
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Dacia Spring Comfort Plus
+Extracted Hyundai Kona electric Origo 204
+Extracted Hyundai Kona electric Amplia 204
+Extracted Hyundai Kona electric Vertex 204
+Extracted Hyundai Kona electric Amplia 136
+Extracted Hyundai Kona electric Origo 136
+Extracted Dacia Spring Comfort
+Extracted DS Automobiles DS 3 Crossback E-Tense 136 Sonderedition Club
+Extracted DS Automobiles DS 3 Crossback E-Tense 136 Bastille
+Extracted DS Automobiles DS 3 Crossback E-Tense 136 Performance
+Extracted Opel Mokka Elektro Edition
+Extracted Opel Mokka Elektro Elegance
+Extracted Opel Mokka Elektro GS Line
+Extracted Opel Mokka Elektro Ultimate
+---
+vehicle_type:     SUV M
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Ssangyong Korando e-Motion Titanium
+Extracted Mercedes-Benz EQA 250+
+Extracted Lexus UX 300e Impression
+Extracted Lexus UX 300e Comfort
+Extracted Lexus UX 300e Excellence
+Extracted Mazda MX-30 e-Skyactiv Ambition
+Extracted Mazda MX-30 e-Skyactiv Ambition Plus
+Extracted Mazda MX-30 e-Skyactiv Revolution
+Extracted Volvo C40 Recharge Pure Electric P6 Core
+Extracted Volvo C40 Recharge Pure Electric P6 Plus
+Extracted Volvo C40 Recharge Pure Electric P6 Ultimate
+Extracted Volvo XC40 Pure Electric Recharge P6 Core
+Extracted Volvo XC40 Pure Electric Recharge P6 Plus
+Extracted Volvo XC40 Pure Electric Recharge P6 Ultimate
+Extracted Mercedes-Benz EQA 250
+Extracted Mercedes-Benz EQA 300 4Matic
+Extracted Mercedes-Benz EQA 350 4Matic
+Extracted Mercedes-Benz EQE 350+
+Extracted Volvo C40 Recharge Pure Electric P8 Twin Plus
+Extracted Volvo C40 Recharge Pure Electric P8 Twin Ultimate
+Extracted Mercedes-Benz EQE AMG 43 4matic
+Extracted Volvo XC40 Pure Electric Recharge P8 Twin Plus
+Extracted Volvo XC40 Pure Electric Recharge P8 Twin Ultimate
+---
+vehicle_type:     SUV L
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Hyundai Ioniq 5 2WD Origo 58 kWh
+Extracted Kia EV6 58 kWh
+Extracted Hyundai Ioniq 5 Origo 2WD 77.4 kWh
+Extracted Hyundai Ioniq 5 Amplia 2WD 77.4 kWh
+Extracted Hyundai Ioniq 5 Vertex 2WD 77.4 kWh
+Extracted Aiways U5 Standard
+Extracted Kia EV6 77.4 kWh
+Extracted Kia EV6 4x4 58 kWh
+Extracted Kia EV6 4x4 77.4 kWh
+Extracted Tesla Model Y Long Range
+Extracted Toyota bZ4X Trend FWD
+Extracted Toyota bZ4X Style FWD
+Extracted Toyota bZ4X Premium FWD
+Extracted Hyundai Ioniq 5 2WD Origo 72.6 kWh
+Extracted Hyundai Ioniq 5 First Edition 2WD
+Extracted Hyundai Ioniq 5 4WD Origo 58 kWh
+Extracted Hyundai Ioniq 5 Origo 4WD 77.4 kWh
+Extracted Hyundai Ioniq 5 Amplia 4WD 77.4 kWh
+Extracted Hyundai Ioniq 5 Vertex 4WD 77.4 kWh
+---
+vehicle_type:     SUV XL
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Ford Mustang Mach-E Extended Range RWD
+Extracted Genesis GV60 Premium 228 PS
+Extracted Ford Mustang Mach-E Standard Range RWD
+Extracted Subaru Solterra Comfort 4×4
+Extracted Subaru Solterra Platinum 4×4
+Extracted Subaru Solterra Platinum Plus 4×4
+Extracted Genesis GV70 EV
+Extracted Genesis GV60 Sport 318 PS
+Extracted Genesis GV60 Sport Plus 490 PS
+Extracted Genesis G80 EV Electrified Luxury
+Extracted Ford Mustang Mach-E Standard Range AWD
+Extracted Ford Mustang Mach-E Extended Range AWD
+Extracted Ford Mustang Mach-E GT
+Extracted Tesla Model X Long Range
+Extracted Audi e-tron 50 quattro
+Extracted Audi e-tron 50 quattro advanced
+Extracted Audi e-tron 50 Sportback
+Extracted Audi e-tron 50 quattro S line
+Extracted Audi e-tron 50 Sportback advanced
+Extracted Audi e-tron 50 Sportback Sline
+Extracted Audi e-tron 55 quattro advanced
+Extracted Audi e-tron 55 Sportback
+Extracted Audi e-tron 55 quattro S line
+Extracted Audi e-tron 55 Sportback advanced
+Extracted Audi e-tron 55 Sportback S line
+Extracted Mercedes-Benz EQC 400 4matic EQ Star
+Extracted Audi e-tron S
+Extracted Audi e-tron Sportback S
+---
+vehicle_type:     Minivan S
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Kia e-Soul Power
+Extracted Kia e-Soul Style
+Extracted Citroen ë-Berlingo Live M
+Extracted Citroen ë-Berlingo Feel
+Extracted Citroen ë-Berlingo Feel Pack M
+Extracted Citroen ë-Berlingo Feel Pack XL
+Extracted Peugeot Rifter Elektro Active Pack
+Extracted Peugeot Rifter Long Elektro Active Pack
+Extracted Peugeot Rifter Elektro Allure
+Extracted Peugeot Rifter Elektro Allure Pack
+Extracted Peugeot Rifter Long Elektro Allure Pack
+Extracted Peugeot Rifter Elektro GT
+---
+vehicle_type:     Minivan M
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted Peugeot e-2008 Active
+Extracted Peugeot e-2008 Active Pack
+Extracted Peugeot e-2008 Allure
+Extracted Peugeot e-2008 Allure Pack
+Extracted Peugeot e-2008 GT
+Extracted Peugeot e-2008 GT Pack
+Extracted Peugeot e-208 Active
+Extracted Peugeot e-208 Active Pack
+Extracted Peugeot e-208 Allure
+Extracted Peugeot e-208 Allure Pack
+Extracted Peugeot e-208 GT
+Extracted Peugeot e-208 GT Pack
+Extracted Toyota Proace City Verso Electro 50 kWh Trend Medium
+Extracted Toyota Proace City Verso Electro 50 kWh Trend Long
+Extracted Nissan Evalia e-NV200 Kombi 7-Pl.
+Extracted Nissan Evalia e-NV200 5-Pl.
+Extracted Citroen ë-Jumpy SpaceTourer M Feel 50 kWh
+Extracted Citroen ë-Jumpy SpaceTourer M Shine 50 kWh
+Extracted Citroen ë-Jumpy SpaceTourer M Business 50 kWh
+Extracted Citroen ë-Jumpy SpaceTourer M Business Lounge 50 kWh
+Extracted Citroen ë-Jumpy SpaceTourer M Feel 75 kWh
+Extracted Citroen ë-Jumpy SpaceTourer M Shine 75 kWh
+---
+vehicle_type:     Minivan L
+fuel_type:        Elektro
+fuel_consumption: None
+---
+Extracted VW ID.BUZZ Pro
+Extracted Mercedes-Benz EQV extralang 300
+Extracted Mercedes-Benz EQV lang 300
+Extracted Mercedes-Benz Vito Tourer eVito Lang
+Extracted Mercedes-Benz Vito Tourer eVito Extralang
+Extracted VW Caravelle T6 e-Caravelle ABT
+Extracted Mercedes-Benz EQV lang 250
+Extracted Mercedes-Benz EQV extralang 250
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV S
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV M
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV L
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV XL
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan S
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan M
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan L
+fuel_type:        Elektro mit Range Extender
+fuel_consumption: None
+---
+Extracted Ford Tourneo Custom Bus L1 320 1.0 PHEV Titanium (Range Extender)
+Extracted Ford Transit Custom 320 L1 1.0 PHEV Trend (Range Extender)
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Toyota Prius Plug-in Hybrid 1.8 Premium
+Extracted Toyota Prius Plug-in Hybrid 1.8 Solar
+Extracted Kia Ceed SW Plug-in 1.6 Gdi Power
+Extracted Seat Leon 1.4 eHybrid PHEV FR DSG
+Extracted VW Golf 1.4 TSI Plug-in DSG 204 Style
+Extracted Cupra Leon 1.4 e-Hybrid (pHEV)
+Extracted VW Golf 1.4 TSI Plug-in DSG 245 GTE
+Extracted Peugeot 308 PHEV 180 Active Pack
+Extracted Peugeot 308 SW PHEV 180 Active Pack
+Extracted Mercedes-Benz A Limousine 250 e 8G-DCT
+Extracted Mercedes-Benz A 250 e 8G-DCT
+Extracted Audi A3 Sportback 40 TFSI e S tronic
+Extracted Audi A3 Sportback 45 TFSI e S tronic
+Extracted Peugeot 308 PHEV 225 GT
+Extracted Peugeot 308 SW PHEV 225 GT
+Extracted Opel Astra 1.6 PHEV Swiss
+Extracted Opel Astra 1.6 PHEV Swiss Premium
+Extracted Renault Megane E-Tech Plug-in 160 Intens
+Extracted Mercedes-Benz CLA 250 e 8G-DCT
+Extracted Mercedes-Benz CLA Shooting Brake 250 e 8G-DCT
+Extracted Renault Megane Grandtour E-Tech Plug-in 160 Zen
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Mercedes-Benz C 300 e 9G-Tronic
+Extracted Seat Leon Sportstourer 1.4 eHybrid PHEV FR DSG
+Extracted Cupra Leon SP 1.4 e-Hybrid (pHEV)
+Extracted Skoda Octavia Combi 1.4 TSI PHEV Style
+Extracted Skoda Octavia Combi 1.4 TSI PHEV RS
+Extracted Mercedes-Benz C 300 e 9G-Tronic 4matic
+Extracted VW Arteon SB 1.4 TSI eHybrid OPF Elegance
+Extracted VW Arteon SB 1.4 TSI eHybrid OPF R-Line
+Extracted VW Passat Variant 1.4 TSI GTE PHEV
+Extracted BMW 3 Limousine 320e
+Extracted Polestar 1 -
+Extracted Volvo S60 T8 eAWD Twin Engine Geartronic Inscription
+Extracted Volvo S60 T8 eAWD Twin Engine Geartronic R-Design
+Extracted Volvo S60 T8 eAWD Twin Engine Geartronic Polestar Engineered
+Extracted Volvo V60 T6 eAWD Twin Engine Geartronic Inscription Expression
+Extracted Volvo V60 T6 eAWD Twin Engine Geartronic Inscription
+Extracted Volvo V60 T6 eAWD Twin Engine Geartronic R-Design
+Extracted Volvo V60 T8 eAWD Twin Engine Geartronic Inscription Expression
+Extracted Volvo V60 T8 eAWD Twin Engine Geartronic Inscription
+Extracted Volvo V60 T8 eAWD Twin Engine Geartronic R-Design
+Extracted Volvo V60 T8 eAWD Twin Engine Geartronic Polestar Engineered
+Extracted BMW 3 Limousine 330e xDrive
+Extracted Peugeot 508 Plug-in-Hybrid 225-e Allure EAT8
+Extracted Peugeot 508 SW Plug-in-Hybrid 225-e Allure EAT8
+Extracted BMW 3 Touring 320e xDrive
+Extracted BMW 3 Limousine 320e xDrive
+Extracted BMW 3 Touring 330e xDrive
+Extracted Peugeot 508 Plug-in-Hybrid 360-e Sport Engineered EAT8
+Extracted Peugeot 508 SW Plug-in-Hybrid 360-e Sport Engineered EAT8
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Skoda Superb Combi 1.4 TSI PHEV Ambition
+Extracted Audi A6 50 TFSI e quattro S tronic
+Extracted Audi A6 Avant 50 TFSI e quattro S tronic
+Extracted Audi A6 55 TFSI e quattro S tronic
+Extracted Audi A6 Avant 55 TFSI e quattro S tronic
+Extracted Audi A7 Sportback 50 TFSI e quattro S tronic
+Extracted Volvo S90 T8 eAWD Twin Engine Geartronic Inscription
+Extracted Volvo V90 T8 eAWD Twin Engine Geartronic Inscription Expression
+Extracted DS Automobiles DS 9 E-Tense 250 e-EAT8 Performance Line
+Extracted DS Automobiles DS 9 E-Tense 250 e-EAT8 Rivoli
+Extracted BMW 5 Limousine 520 e Steptronic
+Extracted Audi A7 Sportback 55 TFSI e quattro S tronic
+Extracted DS Automobiles DS 9 E-Tense 225 e-EAT8 Performance Line
+Extracted DS Automobiles DS 9 E-Tense 225 e-EAT8 Rivoli
+Extracted BMW 5 Touring 520e Steptronic
+Extracted Volvo V90 T6 eAWD Twin Engine Geartronic Inscription Expression
+Extracted BMW 5 Limousine 530e xDrive Steptronic
+Extracted DS Automobiles DS 9 E-Tense 250 4x4 e-EAT8 Performance Line
+Extracted BMW 5 Touring 530e xDrive Steptronic
+Extracted Mercedes-Benz E 300 e 4MAtic 9G-Tronic
+Extracted BMW 5 Limousine 545e xDrive Steptronic
+Extracted Mercedes-Benz E 300 e 9G-Tronic
+Extracted Mercedes-Benz E 300 e T 9G-Tronic
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Mercedes-Benz S 580 e
+Extracted Mercedes-Benz S 580 e 4Matic
+Extracted BMW 7 Limousine 745Le xDrive
+Extracted Audi A8 60 TFSI e quattro
+Extracted Audi A8 L 60 TFSI e quattro
+Extracted Porsche Panamera 4 E-Hybrid Executive
+Extracted Bentley Flying Spur Plug-in Hybrid V6
+Extracted Mercedes-Benz AMG GT 63 S E Performance
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Ferrari 296 GTB
+---
+vehicle_type:     SUV S
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted DS Automobiles DS 4 E-Tense 225 4x2 Bastille
+Extracted DS Automobiles DS 4 E-Tense 225 4x2 Trocadero
+Extracted DS Automobiles DS 4 E-Tense 225 4x2 Rivoli
+Extracted DS Automobiles DS 4 E-Tense 225 4x2 Cross Rivoli
+Extracted DS Automobiles DS 4 E-Tense 225 4x2 Performance Line
+Extracted DS Automobiles DS 4 E-Tense 225 4x2 Opera
+Extracted Mini Countryman Cooper S E ALL4 Steptronic
+Extracted Jeep Renegade 1.3 Turbo PHEV 4xe 190 Limited
+Extracted Jeep Renegade 1.3 Turbo PHEV 4xe 240 Limited
+Extracted Jeep Wrangler 2.0 PHEV Sahara 4 Doors Unl.
+---
+vehicle_type:     SUV M
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Kia Sportage 1.6 T-GDI PHEV Power Edition
+Extracted Cupra Formentor 1.4 e-Hybrid (pHEV) 204
+Extracted Hyundai Tucson 1.6 GDi PHEV Origo 4WD DTC
+Extracted Cupra Formentor 1.4 e-Hybrid (pHEV) 245 VZ
+Extracted Peugeot 3008 Plug-in-Hybrid 300-e Allure Pack EAT8
+Extracted BMW X2 xDrive25e Steptronic
+Extracted VW Tiguan eHybrid 1.4 TSI OPF Elegance
+Extracted BMW X1 xDrive25e Steptronic
+Extracted Peugeot 3008 Plug-in-Hybrid 225-e Allure EAT8
+Extracted Opel Grandland 1.6 Turbo Plug-in-Hybrid GS Line
+Extracted Audi Q3 45 TFSI e S tronic
+Extracted Audi Q3 Sportback 45 TFSI e S tronic
+Extracted Mercedes-Benz GLA 250e 8G-DCT PHEV
+Extracted Opel Grandland 1.6 Turbo Plug-in-Hybrid GS Line
+Extracted Jeep Compass 1.3l PHEV Turbo 4xe 190 Limited
+Extracted Land Rover RR Evoque P300e PHEV Aut.
+Extracted Mitsubishi Eclipse Cross 2.4 PHEV Value
+Extracted Mazda CX-60 e-Skyactiv PHEV 327 AWD Prime-Line
+Extracted Mazda CX-60 e-Skyactiv PHEV 327 AWD Exclusive-Line
+Extracted Mazda CX-60 e-Skyactiv PHEV 327 AWD Takumi
+Extracted Jaguar E-Pace P300e I3 1.5 PHEV AWD Auto. R-Dynamic S
+Extracted Jeep Compass 1.3l PHEV Turbo 4xe 240 Limited
+Extracted Volvo XC40 T4 Geartronic Inscription Expression
+Extracted Volvo XC40 T5 Geartronic Inscription Expression
+---
+vehicle_type:     SUV L
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Toyota RAV4 2.5 Trend AWD-i PHEV
+Extracted Toyota RAV4 2.5 Premium AWD-i PHEV
+Extracted Toyota RAV4 2.5 Platinum AWD-i PHEV
+Extracted Suzuki Across Compact Top 4x4 Auto
+Extracted Lexus NX 450h+ E-Four Comfort
+Extracted Ford Kuga 2.5 Duratec PHEV Cool & Connect
+Extracted Seat Tarraco 1.4 eHybrid PHEV FR DSG
+Extracted DS Automobiles DS 7 Crossback E-Tense 225 PS EAT 8 Bastille
+Extracted DS Automobiles DS 7 Crossback E-Tense 225 PS EAT 8 Sonderedition Club
+Extracted DS Automobiles DS 7 Crossback E-Tense 225 PS EAT 8 Rivoli
+Extracted DS Automobiles DS 7 Crossback E-Tense 225 PS EAT 8 Performance Line
+Extracted DS Automobiles DS 7 Crossback E-Tense 300 PS 4x4 Sonderedition Club
+Extracted DS Automobiles DS 7 Crossback E-Tense 300 PS 4x4 Bastille
+Extracted DS Automobiles DS 7 Crossback E-Tense 300 PS 4x4 Performance
+Extracted DS Automobiles DS 7 Crossback E-Tense 300 PS 4x4 Rivoli
+Extracted DS Automobiles DS 7 Crossback E-Tense 300 PS 4x4 Sonderedition Louvre
+Extracted Citroen C5 Aircross Hybrid 225 ë EAT8 Shine
+Extracted Land Rover Discovery Sport 1.5 P300e PHEV
+Extracted Audi Q5 50 TFSI e quattro S tronic
+Extracted Audi Q5 SB 50 TFSI e quattro S tronic
+Extracted Audi Q5 55 TFSI e quattro S tronic S line
+Extracted Audi Q5 SB 55 TFSI e quattro S tronic S line
+Extracted Citroen C5 X Hybrid 225 ë EAT8 Swiss Edition
+Extracted BMW X3 xDrive30e
+Extracted Volvo XC60 T6 eAWD Twin Engine Geartronic IE
+Extracted Volvo XC60 T8 eAWD Twin Engine Geartronic IE
+Extracted Jaguar F-Pace P400e AWD Auto. PHEV
+Extracted Mercedes-Benz GLC 300 e 4Matic+
+Extracted Mercedes-Benz GLC Coupé 300 e 4Matic+
+Extracted Land Rover Defender 110 P400e AWD
+---
+vehicle_type:     SUV XL
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted BMW X5 xDrive45e Steptronic
+Extracted Volvo XC90 T8 AWD Twin Engine Geartronic Inscription Expression
+Extracted Audi Q7 60 TFSI e quattro tiptronic
+Extracted Audi Q7 55 TFSI e quattro tiptronic
+Extracted Audi Q8 55 TFSI e quattro tiptronic
+Extracted Audi Q8 60 TFSI e quattro tiptronic
+Extracted VW Touareg Plug-in 3.0 V6 TSI OPF eHybrid Elegance
+Extracted VW Touareg Plug-in 3.0 V6 TSI OPF 4Motion R
+Extracted Ford Explorer 3.0 EcoBoost Plug-in Hybrid ST-line
+Extracted Jeep Grand Cherokee 2.0 PHEV 380 PS 4xe AT Limited
+Extracted Porsche Cayenne E-Hybrid
+Extracted Porsche Cayenne E-Hybrid Coupé
+Extracted Land Rover RR Sport 2.0 Plug-in Hybrid SE P400 e
+---
+vehicle_type:     Minivan S
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan M
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted Mercedes-Benz B 250e 8G-DCT
+---
+vehicle_type:     Minivan L
+fuel_type:        Plug-in Hybrid Benzin
+fuel_consumption: None
+---
+Extracted VW Multivan T7 1.4 eHybrid Life
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+Extracted Mercedes-Benz E 300 de 9G-Tronic
+Extracted Mercedes-Benz E 300 de T 9G-Tronic
+Extracted Mercedes-Benz E 300 de 4Matic 9G-Tronic
+Extracted Mercedes-Benz E 300 de T 4Matic 9G-Tronic
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV S
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV M
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV L
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+Extracted Mercedes-Benz GLC 300 de 4Matic+
+Extracted Mercedes-Benz GLC Coupé 300 de 4Matic+
+---
+vehicle_type:     SUV XL
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+Extracted Mercedes-Benz GLE 300 de 4Matic
+Extracted Mercedes-Benz GLE Coupé 350 de 4Matic
+---
+vehicle_type:     Minivan S
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan M
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan L
+fuel_type:        Plug-in Hybrid Diesel
+fuel_consumption: None
+---
+---
+vehicle_type:     Mikroklasse
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     Kleinwagen
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     Untere Mittelklasse
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     Mittelklasse
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+Extracted Toyota Mirai Business
+Extracted Toyota Mirai Premium
+Extracted Toyota Mirai Platinum
+---
+vehicle_type:     Obere Mittelklasse
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     Luxusklasse
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     Coupé / Sportwagen
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     Cabriolet / Roadster
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV S
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV M
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV L
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     SUV XL
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan S
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan M
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---
+---
+vehicle_type:     Minivan L
+fuel_type:        Wasserstoff / Elektro
+fuel_consumption: None
+---

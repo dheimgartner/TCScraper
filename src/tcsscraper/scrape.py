@@ -69,6 +69,7 @@ def get_base_table(headless=True, verbose=False):
 
 
 def scrape_one_car(driver, car, km, canton, verbose=False):
+    """Scrapes the info Betriebskosten, etc. from the popup"""
 
     wait_variable = WebDriverWait(driver, timeout=TIMEOUT)
 
@@ -140,13 +141,13 @@ def scrape_one_car(driver, car, km, canton, verbose=False):
 
 
 def scrape_cars(driver, cars, km, canton, verbose=False):
-
+    """Iterates through list of cars and calls scrape one car"""
     content = []
     for c in cars:
         try:
             car = scrape_one_car(driver, c, km, canton, verbose=verbose)
         except Exception as e:
-            logging.warning("Exception occured: When calling scrape_one_car.")
+            logging.warning("Exception occured.")
             car = None
         content.append(car)
     return content
