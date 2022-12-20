@@ -88,5 +88,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/dheimgartner/TCScraper"
-"Bug Tracker" = "https://github.com/dheimgartner/TCScraper/issues"
+"Homepage" = "https://github.com/dheimgartner/tcscraper"
+"Bug Tracker" = "https://github.com/dheimgartner/tcscraper/issues"
