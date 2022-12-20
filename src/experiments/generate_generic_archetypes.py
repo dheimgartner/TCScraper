@@ -5,8 +5,8 @@ import pandas as pd
 from selenium.common.exceptions import (NoSuchElementException,
                                         StaleElementReferenceException)
 
-import tcsscraper.scrape as tcs
-from tcsscraper.helper import Car, NoSimilarCar
+import api.scrape as tcs
+from api.helper import Car, NoSimilarCar
 
 
 

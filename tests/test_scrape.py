@@ -1,15 +1,15 @@
 ## https://docs.python.org/3/library/unittest.html
 ## https://code.visualstudio.com/docs/python/testing
 
-## e.g. run with python -m unittest -v tests.test_scrape.TestTcsScraper.test_get_cars
+## e.g. run with python -m unittest -v tests.test_scrape.Testapi.test_get_cars
 
 import unittest
 
-from tcsscraper import scrape as tcs
-from tcsscraper.helper import Car
+from api import scrape as tcs
+from api.helper import Car
 
 
-class TestTcsScraper(unittest.TestCase):
+class Testapi(unittest.TestCase):
     def test_get_base_table(self):
         base_table = tcs.get_base_table(headless=True)
         self.assertTrue(base_table is not None)

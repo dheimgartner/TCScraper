@@ -1,5 +1,5 @@
 import pickle
-import tcsscraper.scrape as tcs
+import api.scrape as tcs
 
 import logging
 
