@@ -1,3 +1,4 @@
+import logging
 import pickle
 
 import numpy as np
@@ -7,7 +8,6 @@ from selenium.common.exceptions import (NoSuchElementException,
 
 import tcsscraper.api.scrape as tcs
 from tcsscraper.api.helper import Car, NoSimilarCar
-
 
 
 def remove_unit(string):
