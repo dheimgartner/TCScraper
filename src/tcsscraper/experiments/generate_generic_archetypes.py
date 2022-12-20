@@ -56,7 +56,7 @@ def generate_archetype(similar_cars, ndigits=2):
 
 
 ## pack everything into a function
-def generate_generic_archetypes(km=15e3, canton="ZH", verbose=True, path_save=None):
+def generate_generic_archetypes(km=15e3, canton="ZH", verbose=True, path_save=None, return_cars=True):
     """Generate archetype for each vehicle_class x fuel_type combination
 
     Args:
@@ -101,6 +101,9 @@ def generate_generic_archetypes(km=15e3, canton="ZH", verbose=True, path_save=No
     if path_save is not None:
         with open(path_save, "wb") as fp:
             pickle.dump(cars, fp)
+    
+    if return_cars:
+        return cars
 
     generic_archetypes = []
     for c in cars:  ## is list of similar cars
